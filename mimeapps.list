@@ -1,0 +1,23 @@
+[Default Applications]
+text/html=google-chrome.desktop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop
+application/pdf=okularApplication_kimgio.desktop
+x-scheme-handler/baiduyunguanjia=baidunetdisk.desktop
+x-scheme-handler/jetbrains-gateway=jetbrains-gateway.desktop
+application/epub+zip=calibre-ebook-viewer.desktop
+image/png=org.gnome.eog.desktop
+image/gif=org.gnome.eog.desktop
+image/jpeg=org.gnome.eog.desktop
+font/woff2=org.gnome.FontManager.desktop
+x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
+
+[Added Associations]
+application/pdf=okularApplication_kimgio.desktop;
+application/epub+zip=calibre-ebook-viewer.desktop;
+image/png=org.gnome.eog.desktop;
+image/gif=org.gnome.eog.desktop;
+image/jpeg=org.gnome.eog.desktop;
+font/woff2=org.gnome.FontManager.desktop;

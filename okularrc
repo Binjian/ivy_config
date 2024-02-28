@@ -1,0 +1,48 @@
+HDMI-1 HDMI-0 Window-Maximized 1920x1080=true
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAPcAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAQAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHICAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+
+[Desktop Entry]
+FullScreen=false
+
+[General]
+CommandBarLastUsedActions=
+
+[MainWindow]
+HDMI-0 HDMI-1 Height 1920x1080=1004
+HDMI-0 HDMI-1 Width 1920x1080=1918
+HDMI-0 HDMI-1 XPosition 1920x1080=1
+HDMI-0 HDMI-1 YPosition 1920x1080=75
+HDMI-1 HDMI-0 Height 1920x1080=1004
+HDMI-1 HDMI-0 Width 1920x1080=1918
+HDMI-1 HDMI-0 XPosition 1920x1080=1
+HDMI-1 HDMI-0 YPosition 1920x1080=75
+State=AAAA/wAAAAD9AAAAAAAAB34AAAOzAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAQAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHICAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+
+[Print Preview]
+HDMI-0 HDMI-1 Height 1920x1080=500
+HDMI-0 HDMI-1 Width 1920x1080=600
+HDMI-1 HDMI-0 Height 1920x1080=500
+HDMI-1 HDMI-0 Width 1920x1080=600
+
+[Recent Files]
+File1[$e]=/vlt/winsync/books/CAN/Automotive ethernet (Thomas Königseder Kirsten Matheus) (Z-Library).pdf
+File10[$e]=$HOME/Sync/ai-presentation/大型语言模型与人工智能.pdf
+File2[$e]=/vlt/winsync/books/CAN/Automotive Ethernet - the Definitive Guide (Bob Metcalfe, Charles M. Kozierok, Colt Correa etc.) (Z-Library).pdf
+File3[$e]=/vlt/winsync/books/CAN/Konrad Reif_ Fabian Wolf - Softwareentwicklung für Kraftfahrzeuge-Springer Vieweg (2023).pdf
+File4[$e]=/vlt/winsync/books/Autonomous Driving/(essentials) Meike Jipp, Lars Schnieder - Fahrtests unter Realbedingungen_ Sicherheitsvalidierung nach ISO 26262-Springer Fachmedien Wiesbaden_Springer Vieweg (2020).pdf
+File5[$e]=/vlt/winsync/books/Linux/Brian Ward - How Linux Works, 3rd Edition_ What Every Superuser Should Know-No Starch Press (2021).pdf
+File6[$e]=$HOME/.org.d/mode/基础模型与应用.pdf
+File7[$e]=$HOME/.org.d/mode/20230524090843-foundation_model.pdf
+File8[$e]=$HOME/.org.d/mode/20230313125157-llm_ai_slides.pdf
+File9[$e]=$HOME/Sync/ai-presentation/基础模型与应用.pdf
+Name1[$e]=Automotive ethernet (Thomas Königseder Kirsten Matheus) (Z-Library).pdf
+Name10[$e]=大型语言模型与人工智能.pdf
+Name2[$e]=Automotive Ethernet - the Definitive Guide (Bob Metcalfe, Charles M. Kozierok, Colt Correa etc.) (Z-Library).pdf
+Name3[$e]=Konrad Reif_ Fabian Wolf - Softwareentwicklung für Kraftfahrzeuge-Springer Vieweg (2023).pdf
+Name4[$e]=(essentials) Meike Jipp, Lars Schnieder - Fahrtests unter Realbedingungen_ Sicherheitsvalidierung nach ISO 26262-Springer Fachmedien Wiesbaden_Springer Vieweg (2020).pdf
+Name5[$e]=Brian Ward - How Linux Works, 3rd Edition_ What Every Superuser Should Know-No Starch Press (2021).pdf
+Name6[$e]=基础模型与应用.pdf
+Name7[$e]=20230524090843-foundation_model.pdf
+Name8[$e]=20230313125157-llm_ai_slides.pdf
+Name9[$e]=基础模型与应用.pdf

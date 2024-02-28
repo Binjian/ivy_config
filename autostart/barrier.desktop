@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=/snap/bin/barrier
+X-GNOME-Autostart-enabled=true
+NoDisplay=false
+Hidden=false
+Name[en_US]=barrier
+Comment[en_US]=desktop sharing
+X-GNOME-Autostart-Delay=0

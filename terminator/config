@@ -1,0 +1,24 @@
+[global_config]
+[keybindings]
+  go_up = <Primary>Up
+  go_down = <Primary>Down
+  go_left = <Alt>l
+  go_right = <Alt>r
+  layout_launcher = <Primary><Alt>Left
+[profiles]
+  [[default]]
+    font = MesloLGS NF 10
+    show_titlebar = False
+    use_custom_command = True
+    custom_command = byobu
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+[plugins]
