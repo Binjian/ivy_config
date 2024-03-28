@@ -103,7 +103,7 @@
           <rotation>normal</rotation>
           <reflect_x>no</reflect_x>
           <reflect_y>no</reflect_y>
-          <primary>yes</primary>
+          <primary>no</primary>
       </output>
       <output name="DP-2">
       </output>
@@ -121,7 +121,7 @@
           <rotation>normal</rotation>
           <reflect_x>no</reflect_x>
           <reflect_y>no</reflect_y>
-          <primary>no</primary>
+          <primary>yes</primary>
       </output>
       <output name="DP-4">
       </output>

@@ -11,12 +11,12 @@ CommandBarLastUsedActions=
 HDMI-0 HDMI-1 Height 1920x1080=1004
 HDMI-0 HDMI-1 Width 1920x1080=1918
 HDMI-0 HDMI-1 XPosition 1920x1080=1
-HDMI-0 HDMI-1 YPosition 1920x1080=75
-HDMI-1 HDMI-0 Height 1920x1080=1004
+HDMI-0 HDMI-1 YPosition 1920x1080=46
+HDMI-1 HDMI-0 Height 1920x1080=1044
 HDMI-1 HDMI-0 Width 1920x1080=1918
 HDMI-1 HDMI-0 XPosition 1920x1080=1
-HDMI-1 HDMI-0 YPosition 1920x1080=75
-State=AAAA/wAAAAD9AAAAAAAAB34AAAOzAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAQAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHICAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+HDMI-1 HDMI-0 YPosition 1920x1080=35
+State=AAAA/wAAAAD9AAAAAAAAB34AAAPbAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAQAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHICAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
 ToolBarsMovable=Disabled
 
 [Print Preview]
@@ -26,23 +26,23 @@ HDMI-1 HDMI-0 Height 1920x1080=500
 HDMI-1 HDMI-0 Width 1920x1080=600
 
 [Recent Files]
-File1[$e]=/vlt/winsync/books/CAN/Automotive ethernet (Thomas Königseder Kirsten Matheus) (Z-Library).pdf
-File10[$e]=$HOME/Sync/ai-presentation/大型语言模型与人工智能.pdf
-File2[$e]=/vlt/winsync/books/CAN/Automotive Ethernet - the Definitive Guide (Bob Metcalfe, Charles M. Kozierok, Colt Correa etc.) (Z-Library).pdf
-File3[$e]=/vlt/winsync/books/CAN/Konrad Reif_ Fabian Wolf - Softwareentwicklung für Kraftfahrzeuge-Springer Vieweg (2023).pdf
-File4[$e]=/vlt/winsync/books/Autonomous Driving/(essentials) Meike Jipp, Lars Schnieder - Fahrtests unter Realbedingungen_ Sicherheitsvalidierung nach ISO 26262-Springer Fachmedien Wiesbaden_Springer Vieweg (2020).pdf
-File5[$e]=/vlt/winsync/books/Linux/Brian Ward - How Linux Works, 3rd Edition_ What Every Superuser Should Know-No Starch Press (2021).pdf
-File6[$e]=$HOME/.org.d/mode/基础模型与应用.pdf
-File7[$e]=$HOME/.org.d/mode/20230524090843-foundation_model.pdf
-File8[$e]=$HOME/.org.d/mode/20230313125157-llm_ai_slides.pdf
-File9[$e]=$HOME/Sync/ai-presentation/基础模型与应用.pdf
-Name1[$e]=Automotive ethernet (Thomas Königseder Kirsten Matheus) (Z-Library).pdf
-Name10[$e]=大型语言模型与人工智能.pdf
-Name2[$e]=Automotive Ethernet - the Definitive Guide (Bob Metcalfe, Charles M. Kozierok, Colt Correa etc.) (Z-Library).pdf
-Name3[$e]=Konrad Reif_ Fabian Wolf - Softwareentwicklung für Kraftfahrzeuge-Springer Vieweg (2023).pdf
-Name4[$e]=(essentials) Meike Jipp, Lars Schnieder - Fahrtests unter Realbedingungen_ Sicherheitsvalidierung nach ISO 26262-Springer Fachmedien Wiesbaden_Springer Vieweg (2020).pdf
-Name5[$e]=Brian Ward - How Linux Works, 3rd Edition_ What Every Superuser Should Know-No Starch Press (2021).pdf
-Name6[$e]=基础模型与应用.pdf
-Name7[$e]=20230524090843-foundation_model.pdf
-Name8[$e]=20230313125157-llm_ai_slides.pdf
-Name9[$e]=基础模型与应用.pdf
+File1[$e]=/vlt/winsync/books/CAN/Konrad Reif_ Fabian Wolf - Softwareentwicklung für Kraftfahrzeuge-Springer Vieweg (2023).pdf
+File10[$e]=/vlt/winsync/books/CAN/660.3 - Python, Scapy, and Fuzzing (SANS Institute) (Z-Library).pdf
+File2[$e]=/vlt/winsync/books/Autonomous Driving/(essentials) Meike Jipp, Lars Schnieder - Fahrtests unter Realbedingungen_ Sicherheitsvalidierung nach ISO 26262-Springer Fachmedien Wiesbaden_Springer Vieweg (2020).pdf
+File3[$e]=/vlt/winsync/books/Linux/Brian Ward - How Linux Works, 3rd Edition_ What Every Superuser Should Know-No Starch Press (2021).pdf
+File4[$e]=$HOME/Sync/ai-presentation/基础模型与应用.pdf
+File5[$e]=$HOME/Sync/ai-presentation/大型语言模型与人工智能.pdf
+File6[$e]=/vlt/winsync/books/vim/Learning the vi and Vim Editors Power and Agility Beyond Just Text Editing (Arnold Robbins, Elbert Hannah) (Z-Library).pdf
+File7[$e]=/vlt/winsync/books/CAN/scapy-readthedocs-io-en-latest.pdf
+File8[$e]=/vlt/winsync/books/CAN/ccp211.pdf
+File9[$e]=/vlt/winsync/books/Network/pentesting/Violent Python A Cookbook for Hackers, Forensic Analysts, Penetration Testers and Security Engineers (TJ. OConnor) (Z-Library).pdf
+Name1[$e]=Konrad Reif_ Fabian Wolf - Softwareentwicklung für Kraftfahrzeuge-Springer Vieweg (2023).pdf
+Name10[$e]=660.3 - Python, Scapy, and Fuzzing (SANS Institute) (Z-Library).pdf
+Name2[$e]=(essentials) Meike Jipp, Lars Schnieder - Fahrtests unter Realbedingungen_ Sicherheitsvalidierung nach ISO 26262-Springer Fachmedien Wiesbaden_Springer Vieweg (2020).pdf
+Name3[$e]=Brian Ward - How Linux Works, 3rd Edition_ What Every Superuser Should Know-No Starch Press (2021).pdf
+Name4[$e]=基础模型与应用.pdf
+Name5[$e]=大型语言模型与人工智能.pdf
+Name6[$e]=Learning the vi and Vim Editors Power and Agility Beyond Just Text Editing (Arnold Robbins, Elbert Hannah) (Z-Library).pdf
+Name7[$e]=scapy-readthedocs-io-en-latest.pdf
+Name8[$e]=ccp211.pdf
+Name9[$e]=Violent Python A Cookbook for Hackers, Forensic Analysts, Penetration Testers and Security Engineers (TJ. OConnor) (Z-Library).pdf

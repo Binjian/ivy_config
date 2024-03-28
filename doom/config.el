@@ -620,8 +620,9 @@
 ;;(setq org-latex-compiler "xelatex"))
 (setq org-element-use-cache t)
 
-(require 'atomic-chrome)
+;;(require 'atomic-chrome)
 (atomic-chrome-start-server)
+;;(add-transient-hook! 'after-focus-change-function (atomic-chrome-start-server))
 (setq atomic-chrome-default-major-mode 'markdown-mode)
 (setq atomic-chrome-url-major-mode-alist
       '(("github\\.com" . gfm-mode)
@@ -633,6 +634,10 @@
         ("google\\.com" . gfm-mode)
         ("newrizon\\.work" . gfm-mode)))
 (setq atomic-chrome-buffer-open-style 'frame)
+(setq atomic-chrome-server-ghost-text-port 4001)
+
+(setq emacs-everywhere-major-mode-function #'org-mode)
+(setq emacs-everywhere-frame-name-format "emacs-everywhere")
 
 ;; httpd
 (use-package! simple-httpd
