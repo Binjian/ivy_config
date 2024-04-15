@@ -1,131 +1,155 @@
-<monitors version="1">
+<monitors version="2">
   <configuration>
-      <clone>no</clone>
-      <output name="DP-0">
-      </output>
-      <output name="DP-1">
-      </output>
-      <output name="HDMI-0">
+    <migrated/>
+    <logicalmonitor>
+      <x>0</x>
+      <y>0</y>
+      <primary>yes</primary>
+      <monitor>
+        <monitorspec>
+          <connector>HDMI-0</connector>
           <vendor>DEL</vendor>
           <product>0xd0d1</product>
           <serial>0x304a384c</serial>
+        </monitorspec>
+        <mode>
           <width>1920</width>
           <height>1080</height>
-          <rate>60.000000</rate>
-          <x>0</x>
-          <y>0</y>
-          <rotation>normal</rotation>
-          <reflect_x>no</reflect_x>
-          <reflect_y>no</reflect_y>
-          <primary>yes</primary>
-      </output>
-      <output name="DP-2">
-      </output>
-      <output name="DP-3">
-      </output>
-      <output name="HDMI-1">
+          <rate>60</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>1920</x>
+      <y>0</y>
+      <monitor>
+        <monitorspec>
+          <connector>HDMI-1</connector>
           <vendor>XMD</vendor>
           <product>0x004a</product>
           <serial>0x00000001</serial>
+        </monitorspec>
+        <mode>
           <width>1920</width>
           <height>1080</height>
-          <rate>60.000000</rate>
-          <x>1920</x>
-          <y>0</y>
-          <rotation>normal</rotation>
-          <reflect_x>no</reflect_x>
-          <reflect_y>no</reflect_y>
-          <primary>no</primary>
-      </output>
-      <output name="DP-4">
-      </output>
-      <output name="DP-5">
-      </output>
+          <rate>60</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
   </configuration>
   <configuration>
-      <clone>no</clone>
-      <output name="DP-0">
-      </output>
-      <output name="DP-1">
-      </output>
-      <output name="HDMI-0">
+    <logicalmonitor>
+      <x>0</x>
+      <y>0</y>
+      <scale>1</scale>
+      <monitor>
+        <monitorspec>
+          <connector>HDMI-1</connector>
+          <vendor>DEL</vendor>
+          <product>DELL S2419H</product>
+          <serial>7CZTWR2</serial>
+        </monitorspec>
+        <mode>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>60</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>1920</x>
+      <y>0</y>
+      <scale>1</scale>
+      <primary>yes</primary>
+      <monitor>
+        <monitorspec>
+          <connector>HDMI-0</connector>
+          <vendor>DEL</vendor>
+          <product>DELL E2421HN</product>
+          <serial>J4KGD73</serial>
+        </monitorspec>
+        <mode>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>60</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+  </configuration>
+  <configuration>
+    <migrated/>
+    <logicalmonitor>
+      <x>0</x>
+      <y>0</y>
+      <primary>yes</primary>
+      <monitor>
+        <monitorspec>
+          <connector>HDMI-0</connector>
           <vendor>DEL</vendor>
           <product>0xd0d1</product>
           <serial>0x304a384c</serial>
+        </monitorspec>
+        <mode>
           <width>1920</width>
           <height>1080</height>
-          <rate>60.000000</rate>
-          <x>0</x>
-          <y>0</y>
-          <rotation>normal</rotation>
-          <reflect_x>no</reflect_x>
-          <reflect_y>no</reflect_y>
-          <primary>yes</primary>
-      </output>
-      <output name="DP-2">
-      </output>
-      <output name="DP-3">
-      </output>
-      <output name="HDMI-1">
+          <rate>60</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>1920</x>
+      <y>0</y>
+      <monitor>
+        <monitorspec>
+          <connector>HDMI-1</connector>
           <vendor>DEL</vendor>
           <product>0xf129</product>
           <serial>0x41444e42</serial>
+        </monitorspec>
+        <mode>
           <width>1920</width>
           <height>1080</height>
-          <rate>60.000000</rate>
-          <x>1920</x>
-          <y>0</y>
-          <rotation>normal</rotation>
-          <reflect_x>no</reflect_x>
-          <reflect_y>no</reflect_y>
-          <primary>no</primary>
-      </output>
-      <output name="DP-4">
-      </output>
-      <output name="DP-5">
-      </output>
+          <rate>60</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
   </configuration>
   <configuration>
-      <clone>no</clone>
-      <output name="DP-0">
-      </output>
-      <output name="DP-1">
-      </output>
-      <output name="HDMI-0">
+    <migrated/>
+    <logicalmonitor>
+      <x>1920</x>
+      <y>0</y>
+      <monitor>
+        <monitorspec>
+          <connector>HDMI-0</connector>
           <vendor>DEL</vendor>
           <product>0xf129</product>
           <serial>0x41444e42</serial>
+        </monitorspec>
+        <mode>
           <width>1920</width>
           <height>1080</height>
-          <rate>60.000000</rate>
-          <x>1920</x>
-          <y>0</y>
-          <rotation>normal</rotation>
-          <reflect_x>no</reflect_x>
-          <reflect_y>no</reflect_y>
-          <primary>no</primary>
-      </output>
-      <output name="DP-2">
-      </output>
-      <output name="DP-3">
-      </output>
-      <output name="HDMI-1">
+          <rate>60</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>0</x>
+      <y>0</y>
+      <primary>yes</primary>
+      <monitor>
+        <monitorspec>
+          <connector>HDMI-1</connector>
           <vendor>DEL</vendor>
           <product>0xd0d1</product>
           <serial>0x304a384c</serial>
+        </monitorspec>
+        <mode>
           <width>1920</width>
           <height>1080</height>
-          <rate>60.000000</rate>
-          <x>0</x>
-          <y>0</y>
-          <rotation>normal</rotation>
-          <reflect_x>no</reflect_x>
-          <reflect_y>no</reflect_y>
-          <primary>yes</primary>
-      </output>
-      <output name="DP-4">
-      </output>
-      <output name="DP-5">
-      </output>
+          <rate>60</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
   </configuration>
 </monitors>

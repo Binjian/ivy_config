@@ -1,5 +1,5 @@
 favorites=xfce4-web-browser.desktop,xfce4-mail-reader.desktop,xfce4-file-manager.desktop,libreoffice-writer.desktop,libreoffice-calc.desktop,org.gnome.Software.desktop,xfce4-terminal-emulator.desktop,xfhelp4.desktop
-recent=google-chrome.desktop,emacs.desktop,code.desktop,jetbrains-pycharm-f07bf883-b1cf-42ed-b003-97c0c2237017.desktop,pycharm.desktop,org.remmina.Remmina.desktop,xfce4-screensaver-preferences.desktop,xfce-backdrop-settings.desktop,xfce-ui-settings.desktop,xfce-display-settings.desktop
+recent=lantern.desktop,org.gnome.DiskUtility.desktop,nm-connection-editor.desktop,google-chrome.desktop,org.kde.partitionmanager.desktop,code.desktop,jetbrains-pycharm-f07bf883-b1cf-42ed-b003-97c0c2237017.desktop,gparted.desktop,org.gnome.baobab.desktop,timeshift-gtk.desktop
 button-icon=xubuntu-logo-menu
 button-single-row=false
 show-button-title=false

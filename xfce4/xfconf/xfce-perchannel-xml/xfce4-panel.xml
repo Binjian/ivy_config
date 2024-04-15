@@ -47,6 +47,7 @@
       <property name="size-max" type="uint" value="22"/>
       <property name="symbolic-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="thunar"/>
         <value type="string" value="barrier"/>
         <value type="string" value="indicator-multiload"/>
         <value type="string" value="network"/>
@@ -54,6 +55,7 @@
         <value type="string" value="ibus panel"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="systray"/>
         <value type="string" value="remmina-icon"/>
         <value type="string" value="My-Weather-Indicator2"/>
         <value type="string" value="My-Weather-Indicator"/>

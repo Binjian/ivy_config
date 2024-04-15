@@ -1,32 +1,32 @@
 [desktop-monitor-0]
 nemo-icon-view-keep-aligned=true
 nemo-icon-view-auto-layout=true
-nemo-icon-view-layout-timestamp=1710983002
+nemo-icon-view-layout-timestamp=1713141805
 desktop-grid-adjust=50;100;
 
 [trash]
-nemo-icon-position=25,345
+nemo-icon-position=25,545
 monitor=0
 icon-scale=1
-nemo-icon-position-timestamp=1711327409
+nemo-icon-position-timestamp=1713142136
 
 [home]
 nemo-icon-position=25,145
 monitor=0
 icon-scale=1
-nemo-icon-position-timestamp=1711327409
+nemo-icon-position-timestamp=1713142136
 
 [network]
 nemo-icon-position=25,245
 monitor=0
 icon-scale=1
-nemo-icon-position-timestamp=1711327409
+nemo-icon-position-timestamp=1713142136
 
 [computer]
 nemo-icon-position=25,45
 monitor=0
 icon-scale=1
-nemo-icon-position-timestamp=1711327409
+nemo-icon-position-timestamp=1713142136
 
 [483 MB Volume.volume]
 nemo-icon-position=91,325
@@ -39,3 +39,21 @@ nemo-icon-position=91,325
 monitor=0
 icon-scale=1
 nemo-icon-position-timestamp=1692168791
+
+[4.0 TB Volume.volume]
+nemo-icon-position=25,345
+monitor=0
+icon-scale=1
+nemo-icon-position-timestamp=1712137049
+
+[sd_ext.volume]
+nemo-icon-position=25,445
+monitor=0
+icon-scale=1
+nemo-icon-position-timestamp=1713142136
+
+[sd_exfat.volume]
+nemo-icon-position=25,345
+monitor=0
+icon-scale=1
+nemo-icon-position-timestamp=1713142136

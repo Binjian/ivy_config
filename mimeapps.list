@@ -22,3 +22,4 @@ image/gif=org.gnome.eog.desktop;
 image/jpeg=org.gnome.eog.desktop;
 font/woff2=org.gnome.FontManager.desktop;
 application/x-desktop=vim.desktop;
+application/x-shellscript=sublime_text.desktop;

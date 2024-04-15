@@ -69,6 +69,10 @@
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
 (setq display-line-numbers-type t)
 
+(use-package! lemon
+  :config
+  (setq lemon-mode 1))
+;;(setq display-time-mode t)
 ;;(use-package all-the-icons
 ;;  :if (display-graphic-p))
 

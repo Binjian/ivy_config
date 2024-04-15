@@ -167,3 +167,6 @@
 ;;(package! org-excalidraw)
 (package! org-excalidraw
   :recipe (:host github :repo "wdavew/org-excalidraw"))
+
+(package! lemon
+  :recipe (:host codeberg :repo "emacs-weirdware/lemon"))
