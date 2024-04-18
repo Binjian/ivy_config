@@ -19,8 +19,13 @@ sudo rsync -aAXv --delete --exclude=/dev/* --exclude=/proc/* --exclude=/sys/* --
 
 ## recover raw files from clonezilla zstd files
 ### install partclone and zstd then:w
-zstdcat nvme0n1p2.ext4-ptcl-img.zst | sudo partclone.restore --restore_raw_file -C -s - -o /media/n/sd_exfat/sda2.img
+zstdcat nvme0n1p2.ext4-ptcl-img.zst | sudo partclone.restore --restore_raw_file -C -s - -o /media/n/sd_exfat/ivy.img
 
+mkdir /mnt/ivy
+mount -o loop ivy.img /mnt/ivy/
+
+to unmount
+umount -l /mnt/ivy/
 
 ## hongchen ubuntu laptop backup
 sudo sync -azP --exclude={'.*',LANShareDownloads,anaconda3,carla*,Carla*} x@thalia:/vlt/hongchen-ubuntu-laptop/home/hongchen :vlt:yang /media/n/sd_ext/thalia/x/vlt/hongchen-ubuntu-laptop

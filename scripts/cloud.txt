@@ -90,7 +90,7 @@ pip config set global.index-url http://mirrors.baidubce.com/pypi/simple
 
 
 #newrizon OA
-binjian.xin:87DSMlFF
+binjian.xin: a123456@
 
 #wemeet
 binjian.xin@newrizon.com:5369@shanghai9

@@ -197,7 +197,7 @@
 ;; ;; 开启代码搜索中文功能（比如拼音，五笔码等）
 ;; (pyim-isearch-mode 1)
 
-
+(setq dired-dwim-target t)
 
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
