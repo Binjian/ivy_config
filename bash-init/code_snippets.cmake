@@ -1,0 +1,50 @@
+find_package(Boost COMPONENTS system thread chrono regex filesystem program_options signals REQUIRED)
+set(Boost_INCLUDE_DIR /home/binjianxin/dev/misc/boost_1_58_0)
+set(Boost_LIBRARY_DIR /home/binjianxin/dev/misc/boost_1_58_0/stage/lib)
+include_directories(${Boost_INCLUDE_DIR})
+link_directories(${Boost_LIBRARY_DIR})
+
+
+## System dependencies are found with CMake's conventions
+# find PCL package
+# set ($ENV{PKG_CONFIG_PATH} "$ENV{PKG_CONFIG_PATH};/usr/lib/x86_64-linux-gnu/pkgconfig")
+
+set (PCL_FIND_QUIETLY 1)
+find_package(PCL 1.9.1 EXACT REQUIRED PATHS /home/binjianxin/dev/lidar/pcl/build NO_SYSTEM_ENVIRONMENT_PATH)
+# find_package(PCL 1.7.2 EXACT REQUIRED COMPONENTS common io PATHS "/usr/local/share/pcl-1.7" NO_DEFAULT_PATH)
+
+# message(STATUS "   ENV_PKGCONFIG: $ENV{PKG_CONFIG_PATH}")
+# message(STATUS "    PCL version: ${PCL_VERSION}")
+# message(STATUS "    PCL Libraries: ${PCL_LIBRARIES}")
+# message(STATUS "    PCL include path: ${PCL_INCLUDE_DIRS}")
+
+# find OpenCV package
+find_package(OpenCV 4.1 REQUIRED PATHS /home/binjianxin/dev/cv/opencv-4.1.0/opencv/build NO_SYSTEM_ENVIRONMENT_PATH)
+# message(STATUS "    OpenCV version: ${OpenCV_VERSION}")
+# message(STATUS "    OpenCV include path: ${OpenCV_INCLUDE_DIRS}")
+# message(STATUS "    OpenCV_LIBS: ${OpenCV_LIBS}")
+# message(STATUS "    OpenCV_LIBRARIES: ${OpenCV_LIBRARIES}")
+
+# find GTest package
+#find_package(GTest REQUIRED)
+#message(STATUS "    GTest version : ${GTEST_VERSION}")
+#message(STATUS "    GTest include path: ${GTEST_INCLUDE_DIRS}")
+
+# find mrpt
+# set(MRPT_DIR /home/binjianxin/dev/lidar/mrpt/build)
+find_package(MRPT 1.9.9 REQUIRED slam gui opengl maps obs nav poses PATHS /home/binjianxin/dev/lidar/mrpt/build NO_SYSTEM_ENVIRONMENT_PATH)
+# include_directories(${MRPT_INCLUDE_DIRS})
+message(STATUS "    MRPT Libraries: ${MRPT_LIBRARIES}")
+message(STATUS "    MRPT include path: ${MRPT_INCLUDE_DIRS}")
+
+
+
+find_package(Eigen3 REQUIRED)
+include_directories(${EIGEN3_INCLUDE_DIR})
+
+
+# libyaml-cpp path
+include_directories("/home/binjianxin/dev/misc/yaml-cpp/yaml-cpp-release-0.5.2/include")
+link_directories("/home/binjianxin/dev/misc/yaml-cpp/yaml-cpp-release-0.5.2/build")
+link_directories("/home/binjianxin/dev/misc/flann/build/lib")
+

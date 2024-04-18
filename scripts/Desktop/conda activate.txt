@@ -1,0 +1,55 @@
+conda activate my_env
+conda deactiate my_env
+conda deactiate (base all)
+
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.5 1
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 2
+
+
+./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release
+
+##ros kinetic.
+ignored packages:
+gazebo
+map_msgs
+
+
+##virtualenv
+virtualenv --system-site-packages -p python3 ./venv
+source ./venv/bin/activate  # sh, bash, ksh, or zsh
+
+pip install --upgrade pip
+pip list  # show packages installed within the virtual environment
+deactivate
+
+##tensor docker 
+docker run --runtime=nvidia -it tensorflow/tensorflow:latest-gpu bash
+
+
+##block tf warning
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+
+
+##suppress compiler warning
+add_compile_options(-Wno-deprecated-declarations -Wno-placement-new)
+
+
+ignored:
+obstacle_avoidance
+lidar_perception_sdk
+lidar_perception_pkg
+
+
+##build mrpt
+mrpt-config/unix/config.h #define MRPT_HAS_PCL           1
+libs/obs/CMakeLists.txt
+find_package (yaml-cpp 0.5.2 REQUIRED PATHS /home/binjianxin/dev/misc/yaml-cpp/yaml-cpp-release-0.5.2/build NO_SYSTEM_ENVIRONMENT_PATH)
+
+libs/core/include/mrpt/core/aligned_allocator.h
+:15 #define EIGEN_VECTORIZE_AVX512
+
+somewhere target_link_libraries(xxx PUBLIC )
+
+##enable jupyter notebook
+sudo chown -R user:user ~/.local/share/jupyter

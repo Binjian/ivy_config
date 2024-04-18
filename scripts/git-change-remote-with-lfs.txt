@@ -1,0 +1,27 @@
+git lfs --skip-smudge
+
+git clone ssh://git@gitlab.newrizon.work:2222/its/ai/battery-soh.git funes
+
+cd funes
+
+
+git remote set-url origin ssh://git@gitlab.newrizon.work:2222/its/ai/funes.git
+
+
+git remote -v
+
+git checkout master
+
+git push
+
+
+git reset --hard
+git gc -aggressive
+git prune
+git clean -df
+
+
+# check folder size
+
+du -sh folder
+du -bsh *  # in folder

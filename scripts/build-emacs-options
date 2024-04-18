@@ -1,0 +1,1 @@
+./configure --with-cairo --with-x-toolkit=gtk3 --with-json --with-native-compilation --with-imagemagick --with-x-toolkit=lucid --with-pop --with-mailutils --with-dbus --with-xpm --with-jpeg --with-tiff --with-gif --with-png --with-rsvg --with-xft --with-gnutls --with-modules --with-xml2

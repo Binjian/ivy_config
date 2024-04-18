@@ -1,0 +1,25 @@
+dart
+gazebo
+fcl fast collision-detection library
+octomap
+ode: open dynamic engine
+ompl: open motion planning library ##https://ompl.kavrakilab.org/
+
+lvr2/mesh_tools las vegas uni osnabrueck
+
+mav
+voxblox
+octomap
+
+
+##big data
+Prometheus
+Helm
+Kubernetes
+
+##CI
+DevOps
+Gitlab Runner
+
+
+

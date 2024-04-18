@@ -1,0 +1,33 @@
+nc -u -vv -l -k 8002 | grep velocity
+
+
+nc -u -l localhost 2399
+nc -u localhost 2399
+
+
+server:
+nc -u -l 2399
+client:
+nc -u localhost 2399
+
+netstat | grep 2399
+
+sudo watch netstat -tulpn
+
+nc -l -u -p 4172
+nc -u servname 4172
+
+#vb7
+nc -ulk 127.0.0.1 8001
+
+
+socat STDIO UD | grep velocity
+
+
+Wireshark filter:
+udp.port eq 8002 && frame contains "status"
+udp.port eq 8002 && frame contains "data"
+udp.port eq 8002 && ( frame contains "status" || frame contains "data")
+
+
+wireshark add usergroupnc1

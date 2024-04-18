@@ -1,0 +1,65 @@
+
+# docker install
+docker image build --network=host -t eos:test . 
+# context use
+unset DOCKER_HOST
+
+
+docker pull carlasim/carla:version
+docker pull carlasim/carla:0.8.2
+docker run -p 2000-2002:2000-2002 --runtime=nvidia --gpus all carlasim/carla:0.8.4
+
+docker run -p 2000-2002:2000-2002 --runtime=nvidia -e NVIDIA_VISIBLE_DEVICES=0 carlasim/carla:0.8.4 /bin/bash CarlaUE4.sh  < Your list of parameters >
+
+nvidia
+https://ngc.nvidia.com/catalog/all
+
+https://docs.nvidia.com/deeplearning/sdk/tensorrt-container-release-notes/running.html
+
+https://docs.nvidia.com/deeplearning/frameworks/user-guide/index.html#runcont
+
+
+docker login nvcr.io
+$oauthtoken
+Username: $oauthtoken
+Password: k7cqFTUvKKdiwGsPnWnyQFYGnlAlsCIRmlP67Qxa(-->ngc)
+
+
+tensorrt
+https://ngc.nvidia.com/catalog/containers/nvidia:tensorrt
+
+docker pull nvcr.io/nvidia/tensorrt:20.03-py3
+
+docker run --gpus all -it --rm -v local_dir:container_dir nvcr.io/nvidia/tensorrt:<xx.xx>-py<x>
+/
+docker run --gpus all --rm nvcr.io/nvidia/<repository>:<container version>
+
+docker build
+
+list containers:
+docker images
+
+docker ps
+docker stats
+
+docker commit
+
+docker image rm visio_build
+docker rmi -f $(docker images -f "dangling=true" -q)
+
+
+docker run -d --restart always -p 6080:80 -v /dev/shm:/dev/shm dorowu/ubuntu-desktop-lxde-vnc
+Browse http://127.0.0.1:6080/
+after apt-get install
+docker commit b6098cc7cb2d
+
+
+docker cp foo.txt mycontainer:/foo.txt
+sudo service docker stop
+sudo rsync -aP /var/lib/docker /raid/04-docker/
+sudo service docker start
+
+docker run --name=oceansim-ros -d -p 6080:80 -v /dev/shm:/dev/shm -v /raid/02-dev/nio:/root os:ros
+
+vim:
+:%s/raid\/02-dev\/nio\/oceansim\/main_zyy\/root\/main_zyy/g

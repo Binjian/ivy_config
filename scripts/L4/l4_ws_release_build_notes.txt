@@ -1,0 +1,179 @@
+add PATHS to opencv 3.4.0
+
+
+#BOOST_MATH_DISABLE_FLOAT128
+
+add_definitions(-std=c++11) --> 
+add_definitions(-std=gnu++11)
+
+
+
+catkin_make -DCMAKE_BUILD_TYPE=Release
+
+rosbag play LJ1E6A3U8J7708493_20190704T114407_beijing.bag /fused_cloud_filtered:=/input
+
+#set vs code include path
+check file c_cpp_properties.json
+
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/binjianxin/nio/l4_ws/devel/include",
+                "/opt/ros/kinetic/include",
+                "/home/binjianxin/nio/l4_ws/src/driver/gps_driver/lib/cereal_port/include",
+                "/home/binjianxin/nio/l4_ws/src/visualization/display/include",
+                "/home/binjianxin/nio/l4_ws/src/localization/lidar_localization/lib/feature_detection/include",
+                "/home/binjianxin/nio/l4_ws/src/driver/gps_driver/lib/gps_conv/include",
+                "/home/binjianxin/nio/l4_ws/src/driver/gps_driver/pkg/gps_driver/include",
+                "/home/binjianxin/nio/l4_ws/src/driver/gps_driver/lib/gps_parser/include",
+                "/home/binjianxin/nio/l4_ws/src/driver/lidar/ibeo_lux/ibeo_core-master/include",
+                "/home/binjianxin/nio/l4_ws/src/driver/lidar/ibeo_lux/ibeo_lux-master/include",
+                "/home/binjianxin/nio/l4_ws/src/localization/lidar_localization/lib/icp_localizer/include",
+                "/home/binjianxin/nio/l4_ws/src/localization/lidar_localization/lib/kalman_filter/include",
+                "/home/binjianxin/nio/l4_ws/src/localization/lidar_localization/pkg/lidar_localization_pkg/include",
+                "/home/binjianxin/nio/l4_ws/src/perception/LidarPerceptionSDK/include",
+                "/home/binjianxin/nio/l4_ws/src/driver/lidar/ibeo_lux/network_interface-master/include",
+                "/home/binjianxin/nio/l4_ws/src/perception/ObjectFusionPKG/include",
+                "/home/binjianxin/nio/l4_ws/src/perception/ObjectFusionSDK/include",
+                "/home/binjianxin/nio/l4_ws/src/common/pcl_wrapper/include",
+                "/home/binjianxin/nio/l4_ws/src/localization/lidar_localization/lib/pose_queue/include",
+                "/home/binjianxin/nio/l4_ws/src/driver/gps_driver/lib/serial/include",
+                "/home/binjianxin/nio/l4_ws/src/driver/camera/sv_camera/include",
+                "/home/binjianxin/nio/l4_ws/src/visualization/tf2_web_republisher/include",
+                "/home/binjianxin/nio/l4_ws/src/driver/camera/traffic_camera/include",
+                "/home/binjianxin/nio/l4_ws/src/perception/traffic_light/pkg/include",
+                "/home/binjianxin/nio/l4_ws/src/perception/TrafficLightRecognition/include",
+                "/home/binjianxin/nio/l4_ws/src/common/utils/include",
+                "/home/binjianxin/nio/l4_ws/src/driver/lidar/velodyne_apollo/velodyne_driver/include",
+                "/home/binjianxin/nio/l4_ws/src/driver/lidar/velodyne_apollo/velodyne_pointcloud/include",
+                "/usr/include/mrpt/gui/include",
+                "/usr/include/mrpt/slam/include",
+                "/usr/include/mrpt/vision/include",
+                "/usr/include/mrpt/maps/include",
+                "/usr/include/mrpt/obs/include",
+                "/usr/include/mrpt/base/include",
+                "/usr/include/mrpt/mrpt-config",
+                "/usr/include/mrpt/opengl/include",
+                "/usr/include/pcl-1.7/",
+                "src/perception/LidarPerceptionSDK/3rd_party",
+                "/usr/include/eigen3",
+                "/usr/include"
+            ],
+            "name": "Linux",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/local/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "configurationProvider": "go2sh.cmake-integration"
+        }
+    ],
+    "version": 4
+}
+
+
+
+##build l4_ws_release
+
+nodelet declare --> export
+PLUGINLIB_DECLARE_CLASS --> PLUGINLIB_EXPORT_CLASS
+
+reference libjson in ros_obu and ros_evcard
+  ${CMAKE_SOURCE_DIR}/3rd_party/jsoncpp/libs/linux-gcc-5.4.0/libjson_linux-gcc-5.4.0_libmt.so
+
+in lidar_localization_pkg set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DBOOST_MATH_DISABLE_FLOAT128")
+pcl 1.7 --> pcl
+
+in lidar_localizatin_pkg/update_cloud.cpp
+// pcl::search::KdTree<pcl::PointXYZ> kdtree;
+-->pcl::KdTreeFLANN<pcl::PointXYZ> kdtree;
+
+TrafficLightRecognition/CMakeLists.txt:
+remove opencv version 3.4.0 default to /usr/lib/x86_64-linux-gnu/libopencv**.so.3.2 libs
+
+use gcc5 cuda92 to build everything except perception
+
+switch to gcc7
+
+rebuild /dev/cv/darknet replace the l4_ws project locals.
+enable openmp & rebuild opencv_ocv3
+
+remove opencv version 3.4.0 default to /usr/local/opencv3.4.8 libs 
+ & rebuild traffic_light/darknet and switch references in traffic_light_recognition to it.
+
+replace lidar_perception_sdk/3rd_party/darknet with own build darknet keep darknet_config.h
+change tensorrt 5.2 --> local tensorrt /home/binjianxin/dev/nvidia/TensorRT/TensorRT-5.1.5.0 (cuda10.1, cudnn7.5)
+
+replace TrafficLightRecognition/3rdParty with own build darknet folder with cuda92 enabled; 
+
+camera_obstacle_detect 
+specifiy opencv-3.4.8 in public 3rd_party for reference.
+comment out tensorrt 5.0.2 and use system default tensorrt 6.0
+
+rebuild lidar_perception_sdk && lidar_perception_pkg
+change tensorrt 5.2 --> local tensorrt /home/binjianxin/dev/nvidia/TensorRT/TensorRT-5.1.5.0 (cuda10.1, cudnn7.5)
+
+find_package( OpenCV ) --> 
+    find_package( OpenCV 3.4.8 REQUIRED PATHS ${CMAKE_SOURCE_DIR}/3rd_party/opencv-3.4.8/share/OpenCV)
+
+rebuild object_fusion_sdk & object_fusion_pkg
+
+gps_driver/lib/gps_parser/src/gpgga.cpp :49 std::cerr<<error.str();
+velodyne_apollo/src/driver/driver.cpp :94 abs --> fabs
+
+
+replace ./src/jsoncpp/ with own-built libraries (gcc 7.4 test_lib_json\main.cpp unsigned int change)
+
+
+## run updated l4_ws_release planning and prediction /o perception
+run l4_rel after changing l4_release_init.bash path for specified release version
+add /scripts/robotaxi-493-planning.sh
+
+
+###ros_melodic source build
+CATKIN_IGNORE in packages: 8/214
+--stage
+--geometry/tf
+--qt_gui_core
+--image_common
+--laser_filters
+--laser_assembler
+--realtime_tools [no google test and gmock test]
+gazebo_ros_pkgs
+
+--# rebuild protobuf for system gazebo
+--protoc --proto_path=IMPORT_PATH --cpp_out=DST_DIR --java_out=DST_DIR --python_out=DST_DIR --go_out=DST_DIR --ruby_out=DST_DIR --objc_out=DST_DIR --csharp_out=DST_DIR path/to/file.proto
+
+
+
+
+
+
+///////////////////////////
+replace
+find_package( OpenCV REQUIRED)
+with 
+    find_package( OpenCV 3.4.9 REQUIRED PATHS ${CMAKE_SOURCE_DIR}/3rd_party/opencv-3.4.9/share/OpenCV)
+gpgga
+
+velodyne_applo_driver: abs --> fabs
+
+replace 
+find_package(PCL 1.7 REQUIRED)
+with
+find_package(PCL REQUIRED)
+
+update opencv 3.4.9 path for LD_LIBRARY_PATH
+
+replace
+/usr/local/TensorRT-5.0.2.6/include
+with
+/home/binjianxin/dev/nvidia/TensorRT/TensorRT-6.0.1.5/include
+  
+
+lidar_perception_sdk libdarknet.so-->libdark.so
+replace /3rd_party/Darknet 

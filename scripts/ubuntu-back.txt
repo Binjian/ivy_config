@@ -1,0 +1,63 @@
+# backup
+
+## original
+sudo rsync -aAXv --delete --dry-run --exclude=/dev/* --exclude=/proc/* --exclude=/sys/* --exclude=/tmp/* --exclude=/run/* --exclude=/mnt/* --exclude=/media/* --exclude="swapfile" --exclude="lost+found" --exclude=".cache" --exclude="Downloads" --exclude=".VirtualBoxVMs"--exclude=".ecryptfs" / /vault/backup/
+
+sudo rsync -aAXv --delete --exclude=/dev/* --exclude=/proc/* --exclude=/sys/* --exclude=/tmp/* --exclude=/run/* --exclude=/mnt/* --exclude=/media/* --exclude="swapfile" --exclude="lost+found" --exclude=".cache" --exclude="Downloads" --exclude=".VirtualBoxVMs"--exclude=".ecryptfs" / /vault/backup/
+
+
+## adapted, ignore vault and btr
+
+ sudo rsync -aAXv --delete --dry-run --exclude=/dev/* --exclude=/proc/* --exclude=/sys/* --exclude=/tmp/* --exclude=/run/* --exclude=/mnt/* --exclude=/media/* --exclude=/vault/* --exclude=/btr/*  --exclude="swapfile" --exclude="lost+found" --exclude=".cache" --exclude="Downloads" --exclude=".VirtualBoxVMs"--exclude=".ecryptfs" / /vault/backup/
+
+
+
+ sudo rsync -aAXv --delete --exclude=/dev/* --exclude=/proc/* --exclude=/sys/* --exclude=/tmp/* --exclude=/run/* --exclude=/mnt/* --exclude=/media/* --exclude=/vlt/* --exclude=/btr/* --exclude=/ore/* --exclude=/dpt/* --exclude="swapfile" --exclude="lost+found" --exclude=".cache" --exclude="Downloads" --exclude=".VirtualBoxVMs"--exclude=".ecryptfs" / /ore/ivy/
+
+
+ sudo rsync -aAXv --delete --exclude={/dev,/proc,/sys,/tmp,/run,/mnt,/media,/e81,/vlt,/btr,/ore,/dpt,/swapfile,"lost+found",".cache","Downloads",".VirtualBoxVMs","ecryptfs"} / /ore/ivy/
+
+## recover raw files from clonezilla zstd files
+### install partclone and zstd then:w
+zstdcat nvme0n1p2.ext4-ptcl-img.zst | sudo partclone.restore --restore_raw_file -C -s - -o /media/n/sd_exfat/sda2.img
+
+
+## hongchen ubuntu laptop backup
+sudo sync -azP --exclude={'.*',LANShareDownloads,anaconda3,carla*,Carla*} x@thalia:/vlt/hongchen-ubuntu-laptop/home/hongchen :vlt:yang /media/n/sd_ext/thalia/x/vlt/hongchen-ubuntu-laptop
+
+# back up n home to exfat
+sudo rsync -vrltD --no-links --progress /home/n --exclude=${EXCLUDE_DIR} /e81/ivy
+
+# restore
+
+mkdir /mnt/system /mnt/usb
+
+lsblk
+
+mount /dev/sda1 /mnt/system
+mount /dev/sdb1 /mnt/usb
+
+rsync -aAXv --delete --exclude="lost+found" /mnt/usb/ /mnt/system/
+
+
+# fstab, vault, etc
+
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a
+# device; this may be used with UUID= as a more robust way to name devices
+# that works even if disks are added and removed. See fstab(5).
+#
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+# / was on /dev/nvme0n1p2 during installation
+UUID=43743ed7-ea99-4d6c-99b8-bf048140d778 /               ext4    errors=remount-ro 0       1
+# /boot/efi was on /dev/nvme0n1p1 during installation
+UUID=3BF4-AAE8  /boot/efi       vfat    umask=0077      0       1
+/swapfile                                 none            swap    sw              0       0
+# seagate 4TB 5400rpm harddrive
+# UUID=15ef347d-b993-48f5-adf5-26330be5842b	/vault	ext4	defaults	0	2
+# 0ffad6e9-86d8-4146-b37d-caf41f932697
+# /dev/sda1	/vault	ext4	defaults	0	2
+# 6ba724b2-3705-468a-a84c-9967972e7a52
+UUID=6ba724b2-3705-468a-a84c-9967972e7a52	/vault	ext4	defaults	0	2
+UUID=6f3c5ffa-8d1b-48bd-927a-521639e69220	/btr	btrfs	defaults	0	2

@@ -1,0 +1,12 @@
+nodejs 20.6.1
+poetry 1.5.1
+git 2.44.0
+docker-compose-v1 v2.15.1
+tmux 3.3a
+python 3.11.7
+yarn 1.22.19
+ruby 3.2.2
+java system
+rust 1.77.1
+golang 1.22.0
+lua 5.4.6

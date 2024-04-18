@@ -1,0 +1,21 @@
+##bag2 pcd and ply
+rosrun pcl_ros pointcloud_to_pcd LJ1E6A3U8J7708493_20190704T114407_beijing.bag /pandar_points/pcd/
+
+
+
+##https://re.je/blog/2013-08-08-capturing-point-clouds-with-pcl-tools/
+Converting to PLY
+To open the point cloud in other applications, such as Blender and Meshlab, you will have to convert the generated PCD to PLY or another supported format.
+
+To do this run the following command:
+
+pcl_pcd2ply <input.pcd> <output.ply>
+To process multiple files use the following with zsh:
+
+for i in *.pcd ; do pcl_pcd2ply $i ${i:r}.ply ; done
+The generated file uses meters as it's units. This works well in Blender but may need to be scaled in other applications.
+
+
+
+##Fastest way to find closest triangle of mesh from specified point
+https://gamedev.stackexchange.com/questions/87887/fastest-way-to-find-closest-triangle-of-mesh-from-specified-point

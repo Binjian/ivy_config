@@ -1,0 +1,63 @@
+gpg: key AA2F136F089C55BB marked as ultimately trusted
+gpg: directory '/home/n/.gnupg/openpgp-revocs.d' created
+gpg: revocation certificate stored as '/home/n/.gnupg/openpgp-revocs.d/158AA4458790E861FB1B31D9AA2F136F089C55BB.rev'
+public and secret key created and signed.
+
+pub   rsa3072 2023-10-16 [SC] [expires: 2025-10-15]
+      158AA4458790E861FB1B31D9AA2F136F089C55BB
+uid                      binjian <binjian.xin@hotmail.com>
+sub   rsa3072 2023-10-16 [E] [expires: 2025-10-15]
+
+
+#secondary
+
+sec  rsa3072/AA2F136F089C55BB
+     created: 2023-10-16  expires: 2025-10-15  usage: SC  
+     trust: ultimate      validity: ultimate
+ssb  rsa3072/A9D16A0B5CACBCCD
+     created: 2023-10-16  expires: 2025-10-15  usage: E   
+ssb  rsa3072/AC8143CC822B94BF
+     created: 2023-10-16  expires: never       usage: S   
+ssb  rsa3072/F67F8204B9886D50
+     created: 2023-10-16  expires: never       usage: E   
+[ultimate] (1). binjian <binjian.xin@hotmail.com>
+
+
+# revocation certificate
+
+This is a revocation certificate for the OpenPGP key:
+
+pub   rsa3072 2023-10-16 [SC] [expires: 2025-10-15]
+      158AA4458790E861FB1B31D9AA2F136F089C55BB
+uid          binjian <binjian.xin@hotmail.com>
+
+A revocation certificate is a kind of "kill switch" to publicly
+declare that a key shall not anymore be used.  It is not possible
+to retract such a revocation certificate once it has been published.
+
+Use it to revoke this key in case of a compromise or loss of
+the secret key.  However, if the secret key is still accessible,
+it is better to generate a new revocation certificate and give
+a reason for the revocation.  For details see the description of
+of the gpg command "--generate-revocation" in the GnuPG manual.
+
+To avoid an accidental use of this file, a colon has been inserted
+before the 5 dashes below.  Remove this colon with a text editor
+before importing and publishing this revocation certificate.
+
+:-----BEGIN PGP PUBLIC KEY BLOCK-----
+Comment: This is a revocation certificate
+
+iQG2BCABCgAgFiEEFYqkRYeQ6GH7GzHZqi8TbwicVbsFAmUsqesCHQAACgkQqi8T
+bwicVbsvSgwAsMS6pKDagv/0kvbDG7HL6dFBg0xPwkyc19MxXXptGPwLyO1Qg66V
+OqXAPnihnQDk/662sOjkULfMlJrgh9VqGoJUR2pVwKM2u5uEoqaSo30qBEFYYR+B
+qBpfD6GRH5lm2fat+iJP51LS4kYfMmnV/Qld3Mv3DxHL79cfiYP340NHoeZH93NW
+A7Y0g8/gkCDj5i8QODF3feBTfn5mmnccmH2U4JW3pxC71hAmLqM4tlf9vUR+dy90
+yrneNMJeUrIjJ+t5YMC6m1P4qbpFpUKnbbq/ibjHcwccUMZWn4Y2e60LkonDE1OR
+R9NNsBU7eQYES0iCBMfrB6JKjWjCIG6bCtI1Rj2x1bfWVKttUlo76I8BODsLg/ug
+2bEb7dQtb2FPzcIKPqaEIZD4EyBw6GKi8JGcruG70CVPeBeIu91+izMxRKwgR2wI
+/JyAE1G0DQAHcprduKXhFb/SzVW+aA0jc2nQpthj9/ccMwKgCbUZNJHR70EscHdi
+zRUoObTwdKGg
+=CwQZ
+-----END PGP PUBLIC KEY BLOCK-----
+

@@ -1,0 +1,8 @@
+#debug C/C++ in VSCode
+ctrl+shift+p --> C/C++ Edit Configuration (json)
+ctrl+shift+p --> Debug/Open Configuration
+
+invoke debugging : ctrl+shift+D
+
+in launch.json
+ctrl+space

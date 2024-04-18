@@ -1,0 +1,4 @@
+ps -eo pcpu,pid,user,args | sort -k 1 -r | head -10 > cpu_consump2.txt
+
+
+http://wiki.ros.org/roslaunch/Tutorials/Profiling%20roslaunch%20nodes

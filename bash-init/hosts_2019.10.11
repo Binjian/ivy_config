@@ -1,0 +1,22 @@
+127.0.0.1	localhost
+127.0.1.1	adas-L4
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+127.0.0.1       www.sublimetext.com
+127.0.0.1       license.sublimehq.com
+0.0.0.0 	account.jetbrains.com:443
+0.0.0.0		www.jetbrains.com
+91.189.91.26	archive.ubuntu.com
+91.189.91.26	security.ubuntu.com
+64.50.233.100	packages.ros.org
+10.110.0.59		git.nevint.com
+10.122.147.178	jira.nevint.com
+10.122.150.212	confluence.nevint.com
+10.132.18.44	neptune.nioint.com
+10.132.18.44	api-neptune.nioint.com

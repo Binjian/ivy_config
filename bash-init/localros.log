@@ -1,0 +1,2678 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.5.16)  10 SEP 2019 08:12
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**/home/binjianxin/bash_init/localros.bash
+(/home/binjianxin/bash_init/localros.bash
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 12 language(s) loaded.
+! You can't use `macro parameter character #' in vertical mode.
+l.2 #
+      gcc 7; cuda 9.2; ogre 1.12.0; boost 1.58; opencv 4.1; pcl 1.9.1;
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 # g
+       cc 7; cuda 9.2; ogre 1.12.0; boost 1.58; opencv 4.1; pcl 1.9.1;
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no g in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 2--3
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 e
+     xport CUDA_BIN_PATH=/usr/local/cuda1.0
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no U in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no A in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.4 export CUDA_
+                BIN_PATH=/usr/local/cuda1.0
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 4.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.5 
+    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 4--5
+[]
+ []
+
+
+Overfull \hbox (61.17911pt too wide) in paragraph at lines 4--5
+[]\OML/cmm/m/it/10 IN[]ATH \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (84.34402pt too wide) in paragraph at lines 4--5
+\OML/cmm/m/it/10 =usr=local=cuda\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/m/n
+/10 0$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 s
+     udo update-alternatives --set gcc /usr/bin/gcc-7
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 1 in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 6--8
+[]
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.9 #
+      source /home/binjianxin/dev/nvidia/switch-cuda/switch-cuda.sh 9.0
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 # s
+       ource /home/binjianxin/dev/nvidia/switch-cuda/switch-cuda.sh 9.0
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 9--10
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 e
+      xport PATH="/opt/Qt5.9.7/5.9.7/gcc_64/bin:$PATH"
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no Q in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no c in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.11 export PATH="/opt/Qt5.9.7/5.9.7/gcc_
+                                         64/bin:$PATH"
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no P in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no D in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.12 export LD_
+               LIBRARY_PATH="/opt/Qt5.9.7/5.9.7/gcc_64/lib:$LD_LIBRARY_PATH"
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no L in font nullfont!
+Missing character: There is no D in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.12 ...Y_PATH="/opt/Qt5.9.7/5.9.7/gcc_64/lib:$LD_
+                                                  LIBRARY_PATH"
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.13 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 11--13
+[]
+ []
+
+
+Overfull \hbox (33.78079pt too wide) in paragraph at lines 11--13
+[]\OT1/cmr/m/n/10 4\OML/cmm/m/it/10 =bin \OT1/cmr/m/n/10 :$
+ []
+
+
+Overfull \hbox (88.98022pt too wide) in paragraph at lines 11--13
+[]\OML/cmm/m/it/10 IBRARY[]ATH \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (219.2849pt too wide) in paragraph at lines 11--13
+\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 =opt=Qt\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 :\OT
+1/cmr/m/n/10 9\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 7\OML/cmm/m/it/10 =\OT1/cmr/m/n
+/10 5\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 9\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 7\OML
+/cmm/m/it/10 =gcc[]\OT1/cmr/m/n/10 4\OML/cmm/m/it/10 =lib \OT1/cmr/m/n/10 :$$[]
+\OML/cmm/m/it/10 IBRARY[]ATH\OT1/cmr/m/n/10 "$ 
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.15 #
+       source /usr/local/cuda-9.0/include`
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 # s
+        ource /usr/local/cuda-9.0/include`
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ` in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 15--16
+[]
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.17 #
+       sudo mount -t nfs 10.110.3.176:/raid/ADAS_L4_Share /mnt/l4_share
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 # s
+        udo mount -t nfs 10.110.3.176:/raid/ADAS_L4_Share /mnt/l4_share
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no S in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.17 # sudo mount -t nfs 10.110.3.176:/raid/ADAS_
+                                                 L4_Share /mnt/l4_share
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in math mode.
+l.18 #
+       sudo mount -t nfs 10.110.18.93:/ /mnt/server93
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.19 #
+       sudo ln -s /media/binjianxin/5c4898a9-1bf9-45a0-abe9-f1be82c92b35 /mn...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no P in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no " in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 17--21
+[]
+ []
+
+
+Overfull \hbox (155.82137pt too wide) in paragraph at lines 17--21
+[]\OT1/cmr/m/n/10 4[]\OML/cmm/m/it/10 hare=mnt=l\OT1/cmr/m/n/10 4[]\OML/cmm/m/i
+t/10 haresudomount \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (79.16222pt too wide) in paragraph at lines 17--21
+\OML/cmm/m/it/10 tnfs\OT1/cmr/m/n/10 10\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 110\OM
+L/cmm/m/it/10 :\OT1/cmr/m/n/10 18\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 93 :
+ []
+
+
+Overfull \hbox (109.60335pt too wide) in paragraph at lines 17--21
+\OML/cmm/m/it/10 ==mnt=server\OT1/cmr/m/n/10 93\OML/cmm/m/it/10 sudoln \OMS/cms
+y/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (142.77692pt too wide) in paragraph at lines 17--21
+\OML/cmm/m/it/10 s=media=binjianxin=\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 c\OT1/cmr
+/m/n/10 4898\OML/cmm/m/it/10 a\OT1/cmr/m/n/10 9 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (28.04175pt too wide) in paragraph at lines 17--21
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 bf\OT1/cmr/m/n/10 9 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (28.06374pt too wide) in paragraph at lines 17--21
+\OT1/cmr/m/n/10 45\OML/cmm/m/it/10 a\OT1/cmr/m/n/10 0 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (27.01163pt too wide) in paragraph at lines 17--21
+\OML/cmm/m/it/10 abe\OT1/cmr/m/n/10 9 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (190.14221pt too wide) in paragraph at lines 17--21
+\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 be\OT1/cmr/m/n/10 82\OML/cm
+m/m/it/10 c\OT1/cmr/m/n/10 92\OML/cmm/m/it/10 b\OT1/cmr/m/n/10 35\OML/cmm/m/it/
+10 =mnt=raid\OT1/cmr/m/n/10 12\OML/cmm/m/it/10 texportPATH \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (168.21245pt too wide) in paragraph at lines 17--21
+\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 =usr=local=texlive=\OT1/cmr/m/n/10 2019\OML/c
+mm/m/it/10 =bin=x\OT1/cmr/m/n/10 86[]4 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (29.6234pt too wide) in paragraph at lines 17--21
+\OML/cmm/m/it/10 linux \OT1/cmr/m/n/10 :$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 e
+      xport PATH="$PATH:$HOME/bin:/usr/local/cuda-10.1/bin:/home/binjianxin/...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no " in font nullfont!
+! You can't use `macro parameter character #' in horizontal mode.
+l.23 #
+      export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda-9.2/lib64:/us...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no D in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.23 #export LD_
+                LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda-9.2/lib64:/us...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no L in font nullfont!
+Missing character: There is no D in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.23 #export LD_LIBRARY_PATH="$LD_
+                                  LIBRARY_PATH:/usr/local/cuda-9.2/lib64:/us...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no L in font nullfont!
+Missing character: There is no D in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.24 ...sr/local/cuda-10.1/extras/CUPTI/lib64:$LD_
+                                                  LIBRARY_PATH"
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.25 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 22--25
+[]
+ []
+
+
+Overfull \hbox (37.22217pt too wide) in paragraph at lines 22--25
+\OML/cmm/m/it/10 PATH \OT1/cmr/m/n/10 :$
+ []
+
+
+Overfull \hbox (88.98022pt too wide) in paragraph at lines 22--25
+[]\OML/cmm/m/it/10 IBRARY[]ATH \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (88.98022pt too wide) in paragraph at lines 22--25
+\OT1/cmr/m/n/10 "$$[]\OML/cmm/m/it/10 IBRARY[]ATH \OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (79.34401pt too wide) in paragraph at lines 22--25
+\OML/cmm/m/it/10 =usr=local=cuda \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (44.25072pt too wide) in paragraph at lines 22--25
+\OT1/cmr/m/n/10 9\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 =lib\OT1/c
+mr/m/n/10 64 :
+ []
+
+
+Overfull \hbox (67.49617pt too wide) in paragraph at lines 22--25
+\OML/cmm/m/it/10 =usr=local=lib \OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (309.94727pt too wide) in paragraph at lines 22--25
+\OML/cmm/m/it/10 =usr=local=cuda=extras=CUPTI=lib\OT1/cmr/m/n/10 64"\OML/cmm/m/
+it/10 exportLD[]IBRARY[]ATH \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (84.34402pt too wide) in paragraph at lines 22--25
+\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 =usr=local=cuda \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (49.25073pt too wide) in paragraph at lines 22--25
+\OT1/cmr/m/n/10 10\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 =lib\OT1/
+cmr/m/n/10 64 :
+ []
+
+
+Overfull \hbox (79.34401pt too wide) in paragraph at lines 22--25
+\OML/cmm/m/it/10 =usr=local=cuda \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (207.42365pt too wide) in paragraph at lines 22--25
+\OT1/cmr/m/n/10 10\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 =extras=C
+UPTI=lib\OT1/cmr/m/n/10 64 :$$[]\OML/cmm/m/it/10 IBRARY[]ATH\OT1/cmr/m/n/10 "$ 
+
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 e
+      xport Eigen_DIR="/usr/"
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.26 export Eigen_
+                  DIR="/usr/"
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.27 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 26--27
+[]
+ []
+
+
+Overfull \hbox (30.65997pt too wide) in paragraph at lines 26--27
+[]\OML/cmm/m/it/10 IR \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (35.2015pt too wide) in paragraph at lines 26--27
+\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 =usr=\OT1/cmr/m/n/10 "$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 e
+      xport BOOST_ROOT=/home/binjianxin/dev/misc/boost_1_58_0
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no T in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.28 export BOOST_
+                  ROOT=/home/binjianxin/dev/misc/boost_1_58_0
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Double subscript.
+l.28 ...ST_ROOT=/home/binjianxin/dev/misc/boost_1_
+                                                  58_0
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+l.29 ...Y_PATH="/home/binjianxin/dev/misc/boost_1_
+                                                  58_0/boost-install/lib:$LD...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+Missing character: There is no L in font nullfont!
+Missing character: There is no D in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.29 ...v/misc/boost_1_58_0/boost-install/lib:$LD_
+                                                  LIBRARY_PATH"
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in math mode.
+l.30 #
+       export PATH="/home/binjianxin/dev/misc/boost_1_58_0/boost-install/lib...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Double subscript.
+l.30 ...t PATH="/home/binjianxin/dev/misc/boost_1_
+                                                  58_0/boost-install/lib:$PATH"
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+Missing character: There is no P in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no " in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 28--31
+[]
+ []
+
+
+Overfull \hbox (40.15935pt too wide) in paragraph at lines 28--31
+[]\OML/cmm/m/it/10 OOT \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (307.13708pt too wide) in paragraph at lines 28--31
+\OML/cmm/m/it/10 =home=binjianxin=dev=misc=boost[][]\OT1/cmr/m/n/10 8[]\OML/cmm
+/m/it/10 exportLD[]IBRARY[]ATH \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (214.48419pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 =home=binjianxin=dev=misc=boost[][]\OT1/cmr/m
+/n/10 8[]\OML/cmm/m/it/10 =boost \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (205.1634pt too wide) in paragraph at lines 28--31
+\OML/cmm/m/it/10 install=lib \OT1/cmr/m/n/10 :$$[]\OML/cmm/m/it/10 IBRARY[]ATH\
+OT1/cmr/m/n/10 "\OML/cmm/m/it/10 exportPATH \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (214.48419pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 =home=binjianxin=dev=misc=boost[][]\OT1/cmr/m
+/n/10 8[]\OML/cmm/m/it/10 =boost \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (50.866pt too wide) in paragraph at lines 28--31
+\OML/cmm/m/it/10 install=lib \OT1/cmr/m/n/10 :$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 e
+      xport OGRE_ROOT=/home/binjianxin/dev/misc//home/binjianxin/dev/misc/og...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no E in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.32 export OGRE_
+                 ROOT=/home/binjianxin/dev/misc//home/binjianxin/dev/misc/og...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no L in font nullfont!
+Missing character: There is no D in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.33 ...n/dev/misc/ogre/ogre-1.12.0/build/lib:$LD_
+                                                  LIBRARY_PATH"
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.34 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 32--34
+[]
+ []
+
+
+Overfull \hbox (40.15935pt too wide) in paragraph at lines 32--34
+[]\OML/cmm/m/it/10 OOT \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (318.97746pt too wide) in paragraph at lines 32--34
+\OML/cmm/m/it/10 =home=binjianxin=dev=misc==home=binjianxin=dev=misc=ogre=ogre 
+\OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (185.1179pt too wide) in paragraph at lines 32--34
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 12\OML/cmm/m/it/10 :\OT1/cmr
+/m/n/10 0\OML/cmm/m/it/10 =buildexportLD[]IBRARY[]ATH \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (190.29898pt too wide) in paragraph at lines 32--34
+\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 =home=binjianxin=dev=misc=ogre=ogre \OMS/cmsy
+/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (157.30005pt too wide) in paragraph at lines 32--34
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 12\OML/cmm/m/it/10 :\OT1/cmr
+/m/n/10 0\OML/cmm/m/it/10 =build=lib \OT1/cmr/m/n/10 :$$[]\OML/cmm/m/it/10 IBRA
+RY[]ATH\OT1/cmr/m/n/10 "$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 e
+      xport FLANN_ROOT=/home/binjianxin/dev/misc/flann/build
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no N in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.35 export FLANN_
+                  ROOT=/home/binjianxin/dev/misc/flann/build
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no L in font nullfont!
+Missing character: There is no D in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.36 ...e/binjianxin/dev/misc/flann/build/lib:$LD_
+                                                  LIBRARY_PATH"
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.37 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 35--37
+[]
+ []
+
+
+Overfull \hbox (40.15935pt too wide) in paragraph at lines 35--37
+[]\OML/cmm/m/it/10 OOT \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (319.68419pt too wide) in paragraph at lines 35--37
+\OML/cmm/m/it/10 =home=binjianxin=dev=misc=flann=buildexportLD[]IBRARY[]ATH \OT
+1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (296.86635pt too wide) in paragraph at lines 35--37
+\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 =home=binjianxin=dev=misc=flann=build=lib \OT
+1/cmr/m/n/10 :$$[]\OML/cmm/m/it/10 IBRARY[]ATH\OT1/cmr/m/n/10 "$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 e
+      xport OPENCV_ROOT=/home/binjianxin/dev/cv/opencv-4.1.0
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no V in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.39 export OPENCV_
+                   ROOT=/home/binjianxin/dev/cv/opencv-4.1.0
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no L in font nullfont!
+Missing character: There is no D in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.40 .../dev/cv/opencv-4.1.0/opencv/build/lib:$LD_
+                                                  LIBRARY_PATH"
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no P in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no " in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 39--42
+[]
+ []
+
+
+Overfull \hbox (40.15935pt too wide) in paragraph at lines 39--42
+[]\OML/cmm/m/it/10 OOT \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (159.8202pt too wide) in paragraph at lines 39--42
+\OML/cmm/m/it/10 =home=binjianxin=dev=cv=opencv \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (153.27107pt too wide) in paragraph at lines 39--42
+\OT1/cmr/m/n/10 4\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/
+m/n/10 0\OML/cmm/m/it/10 exportLD[]IBRARY[]ATH \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (164.82022pt too wide) in paragraph at lines 39--42
+\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 =home=binjianxin=dev=cv=opencv \OMS/cmsy/m/n/
+10 ^^@
+ []
+
+
+Overfull \hbox (258.2434pt too wide) in paragraph at lines 39--42
+\OT1/cmr/m/n/10 4\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/
+m/n/10 0\OML/cmm/m/it/10 =opencv=build=lib \OT1/cmr/m/n/10 :$$[]\OML/cmm/m/it/1
+0 IBRARY[]ATH\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 exportPATH \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (164.82022pt too wide) in paragraph at lines 39--42
+\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 =home=binjianxin=dev=cv=opencv \OMS/cmsy/m/n/
+10 ^^@
+ []
+
+
+Overfull \hbox (106.76776pt too wide) in paragraph at lines 39--42
+\OT1/cmr/m/n/10 4\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/
+m/n/10 0\OML/cmm/m/it/10 =opencv=build=bin \OT1/cmr/m/n/10 :$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 e
+      xport PKG_CONFIG_PATH="/home/binjianxin/dev/cv/opencv-4.1.0/opencv/bui...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no K in font nullfont!
+Missing character: There is no G in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.44 export PKG_
+                CONFIG_PATH="/home/binjianxin/dev/cv/opencv-4.1.0/opencv/bui...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no P in font nullfont!
+Missing character: There is no K in font nullfont!
+Missing character: There is no G in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.44 ...nxin/dev/lidar/mrpt/build/pkgconfig:${PKG_
+                                                  CONFIG_PATH}"
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.44 ...ar/mrpt/build/pkgconfig:${PKG_CONFIG_PATH}
+                                                  "
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.45 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 44--45
+[]
+ []
+
+
+Overfull \hbox (85.69984pt too wide) in paragraph at lines 44--45
+[]\OML/cmm/m/it/10 ONFIG[]ATH \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (164.82022pt too wide) in paragraph at lines 44--45
+\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 =home=binjianxin=dev=cv=opencv \OMS/cmsy/m/n/
+10 ^^@
+ []
+
+
+Overfull \hbox (116.13826pt too wide) in paragraph at lines 44--45
+\OT1/cmr/m/n/10 4\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/
+m/n/10 0\OML/cmm/m/it/10 =opencv=build=unix \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (34.94862pt too wide) in paragraph at lines 44--45
+\OML/cmm/m/it/10 install \OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (319.50609pt too wide) in paragraph at lines 44--45
+\OML/cmm/m/it/10 =home=binjianxin=dev=lidar=mrpt=build=pkgconfig \OT1/cmr/m/n/1
+0 :$$[]\OML/cmm/m/it/10 ONFIG[]ATH\OT1/cmr/m/n/10 "$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 e
+      xport MRPT_DIR="/home/binjianxin/dev/lidar/mrpt/build"
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no T in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.46 export MRPT_
+                 DIR="/home/binjianxin/dev/lidar/mrpt/build"
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no L in font nullfont!
+Missing character: There is no D in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.47 ...e/binjianxin/dev/lidar/mrpt/build/lib:$LD_
+                                                  LIBRARY_PATH"
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.48 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 46--48
+[]
+ []
+
+
+Overfull \hbox (30.65997pt too wide) in paragraph at lines 46--48
+[]\OML/cmm/m/it/10 IR \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (326.11816pt too wide) in paragraph at lines 46--48
+\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 =home=binjianxin=dev=lidar=mrpt=build\OT1/cmr
+/m/n/10 "\OML/cmm/m/it/10 exportLD[]IBRARY[]ATH \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (293.3003pt too wide) in paragraph at lines 46--48
+\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 =home=binjianxin=dev=lidar=mrpt=build=lib \OT
+1/cmr/m/n/10 :$$[]\OML/cmm/m/it/10 IBRARY[]ATH\OT1/cmr/m/n/10 "$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 e
+      xport PCL_DIR="/home/binjianxin/dev/lidar/pcl/build"
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no L in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.49 export PCL_
+                DIR="/home/binjianxin/dev/lidar/pcl/build"
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no L in font nullfont!
+Missing character: There is no D in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.50 ...me/binjianxin/dev/lidar/pcl/build/lib:$LD_
+                                                  LIBRARY_PATH"
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.51 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 49--51
+[]
+ []
+
+
+Overfull \hbox (30.65997pt too wide) in paragraph at lines 49--51
+[]\OML/cmm/m/it/10 IR \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (316.44568pt too wide) in paragraph at lines 49--51
+\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 =home=binjianxin=dev=lidar=pcl=build\OT1/cmr/
+m/n/10 "\OML/cmm/m/it/10 exportLD[]IBRARY[]ATH \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (283.6278pt too wide) in paragraph at lines 49--51
+\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 =home=binjianxin=dev=lidar=pcl=build=lib \OT1
+/cmr/m/n/10 :$$[]\OML/cmm/m/it/10 IBRARY[]ATH\OT1/cmr/m/n/10 "$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 e
+      xport QHULL_ROOT="/home/binjianxin/dev/misc/qhull-2019.1/build"
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no Q in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no U in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no L in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.53 export QHULL_
+                  ROOT="/home/binjianxin/dev/misc/qhull-2019.1/build"
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no L in font nullfont!
+Missing character: There is no D in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.54 ...injianxin/dev/misc/qhull-2019.1/build:$LD_
+                                                  LIBRARY_PATH"
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.55 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 53--55
+[]
+ []
+
+
+Overfull \hbox (40.15935pt too wide) in paragraph at lines 53--55
+[]\OML/cmm/m/it/10 OOT \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (169.12653pt too wide) in paragraph at lines 53--55
+\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 =home=binjianxin=dev=misc=qhull \OMS/cmsy/m/n
+/10 ^^@
+ []
+
+
+Overfull \hbox (192.34015pt too wide) in paragraph at lines 53--55
+\OT1/cmr/m/n/10 2019\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 =build\
+OT1/cmr/m/n/10 "\OML/cmm/m/it/10 exportLD[]IBRARY[]ATH \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (169.12653pt too wide) in paragraph at lines 53--55
+\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 =home=binjianxin=dev=misc=qhull \OMS/cmsy/m/n
+/10 ^^@
+ []
+
+
+Overfull \hbox (143.6049pt too wide) in paragraph at lines 53--55
+\OT1/cmr/m/n/10 2019\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 =build 
+\OT1/cmr/m/n/10 :$$[]\OML/cmm/m/it/10 IBRARY[]ATH\OT1/cmr/m/n/10 "$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56 e
+      xport OPENNI2_INCLUDE=/home/binjianxin/dev/lidar/OpenNI2/Packaging/Ope...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no 2 in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.56 export OPENNI2_
+                    INCLUDE=/home/binjianxin/dev/lidar/OpenNI2/Packaging/Ope...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.58 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 56--58
+[]
+ []
+
+
+Overfull \hbox (63.37004pt too wide) in paragraph at lines 56--58
+[]\OML/cmm/m/it/10 NCLUDE \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (280.85732pt too wide) in paragraph at lines 56--58
+\OML/cmm/m/it/10 =home=binjianxin=dev=lidar=OpenNI\OT1/cmr/m/n/10 2\OML/cmm/m/i
+t/10 =Packaging=OpenNI \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (35.4707pt too wide) in paragraph at lines 56--58
+\OML/cmm/m/it/10 Linux \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (23.4931pt too wide) in paragraph at lines 56--58
+\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 64 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (185.56082pt too wide) in paragraph at lines 56--58
+\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 =Includeex
+portOPENNI\OT1/cmr/m/n/10 2[]\OML/cmm/m/it/10 EDIST \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (280.85732pt too wide) in paragraph at lines 56--58
+\OML/cmm/m/it/10 =home=binjianxin=dev=lidar=OpenNI\OT1/cmr/m/n/10 2\OML/cmm/m/i
+t/10 =Packaging=OpenNI \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (35.4707pt too wide) in paragraph at lines 56--58
+\OML/cmm/m/it/10 Linux \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (23.4931pt too wide) in paragraph at lines 56--58
+\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 64 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (47.05286pt too wide) in paragraph at lines 56--58
+\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 =Redist$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 e
+      xport LD_LIBRARY_PATH="/home/binjianxin/dev/misc/yaml-cpp/yaml-cpp-rel...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no D in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.60 export LD_
+               LIBRARY_PATH="/home/binjianxin/dev/misc/yaml-cpp/yaml-cpp-rel...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no L in font nullfont!
+Missing character: There is no D in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.60 ...yaml-cpp/yaml-cpp-release-0.5.2/build:$LD_
+                                                  LIBRARY_PATH"
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.61 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 60--61
+[]
+ []
+
+
+Overfull \hbox (88.98022pt too wide) in paragraph at lines 60--61
+[]\OML/cmm/m/it/10 IBRARY[]ATH \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (168.96451pt too wide) in paragraph at lines 60--61
+\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 =home=binjianxin=dev=misc=yaml \OMS/cmsy/m/n/
+10 ^^@
+ []
+
+
+Overfull \hbox (49.67607pt too wide) in paragraph at lines 60--61
+\OML/cmm/m/it/10 cpp=yaml \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (22.16786pt too wide) in paragraph at lines 60--61
+\OML/cmm/m/it/10 cpp \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (39.68993pt too wide) in paragraph at lines 60--61
+\OML/cmm/m/it/10 release \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (136.38266pt too wide) in paragraph at lines 60--61
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 :\OT1/cmr/
+m/n/10 2\OML/cmm/m/it/10 =build \OT1/cmr/m/n/10 :$$[]\OML/cmm/m/it/10 IBRARY[]A
+TH\OT1/cmr/m/n/10 "$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 e
+      xport LD_LIBRARY_PATH="/usr/lib/x86_64-linux-gnu/:$LD_LIBRARY_PATH"
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no D in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.63 export LD_
+               LIBRARY_PATH="/usr/lib/x86_64-linux-gnu/:$LD_LIBRARY_PATH"
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no L in font nullfont!
+Missing character: There is no D in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.63 ...RARY_PATH="/usr/lib/x86_64-linux-gnu/:$LD_
+                                                  LIBRARY_PATH"
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.64 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 63--64
+[]
+ []
+
+
+Overfull \hbox (88.98022pt too wide) in paragraph at lines 63--64
+[]\OML/cmm/m/it/10 IBRARY[]ATH \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (79.09811pt too wide) in paragraph at lines 63--64
+\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 =usr=lib=x\OT1/cmr/m/n/10 86[]4 \OMS/cmsy/m/n
+/10 ^^@
+ []
+
+
+Overfull \hbox (31.8457pt too wide) in paragraph at lines 63--64
+\OML/cmm/m/it/10 linux \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (110.83563pt too wide) in paragraph at lines 63--64
+\OML/cmm/m/it/10 gnu= \OT1/cmr/m/n/10 :$$[]\OML/cmm/m/it/10 IBRARY[]ATH\OT1/cmr
+/m/n/10 "$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 e
+      xport PATH="/home/binjianxin/dev/tools/ninja/:$PATH"
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no : in font nullfont!
+! You can't use `macro parameter character #' in math mode.
+l.67 #
+       export CUDA_HOME=/usr/local/cuda-9.2:$cuda
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no c in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+! You can't use `macro parameter character #' in horizontal mode.
+l.68 #
+       export CUDA_ROOT=/usr/local/cuda-9.2
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no U in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no A in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.68 # export CUDA_
+                   ROOT=/usr/local/cuda-9.2
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.69 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 66--69
+[]
+ []
+
+
+Overfull \hbox (141.95042pt too wide) in paragraph at lines 66--69
+\OML/cmm/m/it/10 PATH\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 exportCUDA[]OME \OT1/cmr
+/m/n/10 =
+ []
+
+
+Overfull \hbox (79.34401pt too wide) in paragraph at lines 66--69
+\OML/cmm/m/it/10 =usr=local=cuda \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (18.33331pt too wide) in paragraph at lines 66--69
+\OT1/cmr/m/n/10 9\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 2 :$
+ []
+
+
+Overfull \hbox (40.15935pt too wide) in paragraph at lines 66--69
+[]\OML/cmm/m/it/10 OOT \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (79.34401pt too wide) in paragraph at lines 66--69
+\OML/cmm/m/it/10 =usr=local=cuda \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 66--69
+\OT1/cmr/m/n/10 9\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 2$ 
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.70 #
+       export CC=/usr/bin/gcc
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 # e
+        xport CC=/usr/bin/gcc
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no c in font nullfont!
+! You can't use `macro parameter character #' in horizontal mode.
+l.71 #
+       export CXX=/usr/bin/g++
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no + in font nullfont!
+Missing character: There is no + in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 70--72
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 e
+      xport UE4_ROOT=/mnt/raid12t/simulation/carla_head/UnrealEngine_4.22
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no U in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no 4 in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.73 export UE4_
+                ROOT=/mnt/raid12t/simulation/carla_head/UnrealEngine_4.22
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.74 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 73--74
+[]
+ []
+
+
+Overfull \hbox (40.15935pt too wide) in paragraph at lines 73--74
+[]\OML/cmm/m/it/10 OOT \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (250.22704pt too wide) in paragraph at lines 73--74
+\OML/cmm/m/it/10 =mnt=raid\OT1/cmr/m/n/10 12\OML/cmm/m/it/10 t=simulation=carla
+[]ead=UnrealEngine[]:\OT1/cmr/m/n/10 22$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.75 e
+      xport CC=/usr/local/bin/clang
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no + in font nullfont!
+Missing character: There is no + in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 75--77
+[]
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.78 #
+       export CC=/mnt/raid12t/dev/tools/install/bin/clang
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 # e
+        xport CC=/mnt/raid12t/dev/tools/install/bin/clang
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+! You can't use `macro parameter character #' in horizontal mode.
+l.79 #
+       export CXX=/mnt/raid12t/dev/tools/install/bin/clang++
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no + in font nullfont!
+Missing character: There is no + in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 78--80
+[]
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.81 #
+       source /opt/ros/kinetic/setup.bash
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.81 # s
+        ource /opt/ros/kinetic/setup.bash
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no h in font nullfont!
+! You can't use `macro parameter character #' in horizontal mode.
+l.82 #
+       source /home/binjianxin/dev/ros_kinetic/ros_catkin_ws/install_isolate...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.82 # source /home/binjianxin/dev/ros_
+                                       kinetic/ros_catkin_ws/install_isolate...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in math mode.
+l.83 #
+       source /home/binjianxin/dev/ros_kinetic/ros_kinetic_ws_install/instal...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.86 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 81--86
+[]
+ []
+
+
+Overfull \hbox (1230.01372pt too wide) in paragraph at lines 81--86
+[]\OML/cmm/m/it/10 inetic=ros[]atkin[]s=install[]solated=setup:bashsource=home=
+binjianxin=dev=ros[]inetic=ros[]inetic[]s[]nstall=install[]solated=setup:bashso
+urce=home=binjianxin=dev=ros[]inetic=ros[]inetic[]ll[]s=install[]solated=setup:
+bashsource=home=binjianxin=nio=l\OT1/cmr/m/n/10 4[]\OML/cmm/m/it/10 s[]ocal=dev
+el=setup:bash$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.88 w
+      s()
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no w in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no ) in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 88--90
+[]
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.91     #
+           unset ROS_DISTRO ROS_ETC_DIR ROS_PACKAGE_PATH ROS_VERSION ROS_ROO...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91     # u
+            nset ROS_DISTRO ROS_ETC_DIR ROS_PACKAGE_PATH ROS_VERSION ROS_ROO...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no S in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.91     # unset ROS_
+                     DISTRO ROS_ETC_DIR ROS_PACKAGE_PATH ROS_VERSION ROS_ROO...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in math mode.
+l.92     #
+           source /opt/ros/kinetic/setup.bash
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.93     #
+           source /ros/nio_ws/devel/setup.bash
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.94 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 91--94
+[]
+ []
+
+
+Overfull \hbox (915.31451pt too wide) in paragraph at lines 91--94
+[]\OML/cmm/m/it/10 ISTROROS[]TC[]IRROS[]ACKAGE[]ATHROS[]ERSIONROS[]OOTROS[]ASTE
+R[]RIROSLISP[]ACKAGE[]IRECTORIESsource=opt=ros=kinetic=setup:bashsource=ros=nio
+[]s=devel=setup:bash$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.95     e
+          nv | grep ROS
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no | in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ` in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+! Double superscript.
+<recently read> ^
+                 
+l.96 ...d `echo ${ROS_PACKAGE_PATH} | awk -F ':' '
+                                                  {print $1}' | xargs dirname`
+I treat `x^1^2' essentially like `x^1{}^2'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.96 ...${ROS_PACKAGE_PATH} | awk -F ':' '{print $
+                                                  1}' | xargs dirname`
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no ' in font nullfont!
+Missing character: There is no | in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ` in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 95--97
+[]
+ []
+
+
+Overfull \hbox (135.00655pt too wide) in paragraph at lines 95--97
+[]\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 awk \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (18.98607pt too wide) in paragraph at lines 95--97
+\OML/cmm/m/it/10 F[] \OT1/cmr/m/n/10 :[]
+ []
+
+
+Overfull \hbox (25.68477pt too wide) in paragraph at lines 95--97
+[][]$
+ []
+
+)
+! Emergency stop.
+<*> /home/binjianxin/bash_init/localros.bash
+                                            
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 10 strings out of 494497
+ 287 string characters out of 6172400
+ 56632 words of memory out of 5000000
+ 3524 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 264 hyphenation exceptions out of 8191
+ 18i,2n,12p,197b,56s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

@@ -1,0 +1,7 @@
+waymo gcd
+
+install from package google cloud sdk
+
+
+$ gcloud components install COMPONENT_ID
+$ gcloud components remove COMPONENT_ID

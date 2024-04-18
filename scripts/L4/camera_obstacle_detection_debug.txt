@@ -1,0 +1,13 @@
+
+use local melodic;
+
+cuda 10.1, TensorRT-6.0.1.5
+local opencv 3.4.8
+
+main.cpp:
+comment out SignNet
+
+ObstacleDetect.cpp:
+comment out traffic sign classify 239-244/593-604/
+
+roslaunch camera_obstacle_detect mp2-444_8mm_camera_offline.launch

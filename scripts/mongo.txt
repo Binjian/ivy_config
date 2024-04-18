@@ -1,0 +1,18 @@
+
+
+
+sudo ufw enable
+sudo ufw disable
+
+# allow mongodb access 
+sudo ufw allow 27017
+
+sudo ufw status
+
+# connect to remote mongodb
+
+mongosh "mongodb://10.10.10.31/test_record_db"
+
+use test_episode_db
+db.test_episode_db.find()
+db.test_episode_db.drop()

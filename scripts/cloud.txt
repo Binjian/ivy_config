@@ -1,0 +1,119 @@
+# A40 server：
+10.0.80.111  ubuntu:ubuntu123
+10.0.80.139   root/Newrizon@123
+
+# Baidu Yun
+
+## login
+ssh -p 2201 root@106.13.61.6
+password: Veos@1234
+
+## login
+ssh -p 2201 veos@106.13.61.6
+password: asdf
+
+
+## login
+ssh -p 2201 adpc@106.13.61.6
+password: adpc
+
+
+## rsync remote copy
+ rsync -rvz -e 'ssh -p 2201' --progress ./somefile.tar.gz veos@106.13.61.6:/home/veos/Download
+
+
+## openfortivpn
+
+trusted-cert = a1b37 c87392 a9534 abde1312 ad12d707 e16282 e12356 a838 b6a96 fcbfdc fbc7d
+
+# test cloud server
+curl -v telnet://10.0.48.78:5000 
+
+# remote tunnel
+from dill:
+ssh -R 127.0.0.1:2222:127.0.0.1:22 ivy
+
+from ivy:
+ssh -p 2222 localhost
+
+from ivy to a40 to set v2raya tunnel:
+ssh -L 127.0.0.1:2018:localhost:2017 x@a40
+
+gateway port:
+from ivy:
+sudo vim /etc/ssh/sshd_config --> GatewayPorts yes
+sudo systemctl restart ssh
+
+from dill:
+ssh -R 0.0.0.0:2222:127.0.0.1:22 is@ivy
+
+
+from thalia:
+ssh -p 2222 veos@ivy
+
+
+# New Baiduyun
+
+public：106.12.43.219 (suzhou)
+intra：10.10.0.24
+root:baidu@123
+adpc:adpc
+veos:veos
+
+baiducloud k8s server
+root@10.10.0.19 Newrizon@369
+host data path: /cce/shared/veos-eos/vb-reasoning-pvc-pvc
+
+kubectl get pod -n veos
+kubectl exec -it eos-vb1-reasoning-v3-cd9976f9c-p9zj5 -n veos /bin/bash
+
+百度云k8s控制台：https://kuboard.newrizon.work/
+账号：xinbinjian
+密码：Newrizon#123
+
+
+
+bce百度与控制台
+
+https://console.bce.baidu.com/ccr/?_=1668393360003#/ccr/image/detail?repositoryName=eos-server&projectId=5748
+
+
+BOS
+http://newrizon.login.bce.baidu.com
+binjian.xin
+Veos1234
+
+# baidu pypi
+pip --version
+pip config set global.trusted-host mirrors.baidubce.com
+pip config set global.index-url http://mirrors.baidubce.com/pypi/simple
+
+
+#newrizon OA
+binjian.xin:87DSMlFF
+
+#wemeet
+binjian.xin@newrizon.com:5369@shanghai9
+
+
+
+
+ngrok: recovery codes
+
+YQ4PRAUUJC
+MUJNRWXJS6
+8R8Y8WF9WV
+U59YJW97D6
+VAYQN3XH3Y
+8VEWZVNQSG
+S7JWTXS97X
+5PUN657PR8
+ZRXB5MF5KN
+T5BGB9RRRH
+
+ngrok API keys:
+
+ngrok http --domain=selected-weasel-sacred.ngrok-free.app 80
+
+Github:
+

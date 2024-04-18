@@ -1,0 +1,11 @@
+conda create --name py2 python=2.7
+conda create --name py35 python=3.5
+source activate py35
+
+#py35 for pdal with pdal 1.7.2 and python-pdal 2.0.0
+#py2 for pdal with pdal 1.91. and python-pdal 2.1.8
+conda install --name dl --channel conda-forge python-pdal
+
+
+conda install -n base -c conda-forge widgetsnbextension
+conda install -n py36 -c conda-forge ipywidgets

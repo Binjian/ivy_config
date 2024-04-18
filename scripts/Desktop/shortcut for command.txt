@@ -1,0 +1,61 @@
+
+##tar a folder
+tar -zcvf /mnt/raid12t/_Backup/l4_ws_local.tar.gz l4_ws_local
+
+##force install and force remove with dpkg
+
+sudo dpkg --purge --force-all package
+sudo apt --fix-broken install
+
+##purge ppa
+
+sudo ppa-purge ppa:oibaf/graphics-drivers
+
+apt-get download package
+sudo dpkg -i --force-depends package
+
+##remove specific package with dpkg
+sudo dpkg -P python3.7-distutils
+
+##using ninja with cmake
+
+cmake -GNinja ../..
+ninja
+
+
+##restore cuda 9
+
+sudo -E add-apt-repository ppa:
+sudo -E add-apt-repository ppa:graphics-drivers/ppa
+
+ubuntu-drivers devices
+
+
+##list API in so
+nm -gC libdarnet.so | grep what_time_is_it_now
+readelf -Ws libdarknet.so | c++filt | grep what_time
+
+
+##install remote data set at local folder
+install ssh, fuse, sshfs
+
+mkdir /raid/dl-data/bdd100k
+chown binjianxin:binjianxin /raid/dl-data/bdd100k
+sshfs adas@10.11.18.93:raid/bdd100k /raid/dl-data/bdd100k
+
+fusermount -u /raid/dl-data/bdd100k
+
+##remove cmake generated install file 
+rm < install_manifest.txt
+
+
+##list packages
+apt list --installed | grep mrpt
+dpkg -L libmrpt-dev
+
+apt-cache showpkg tensorrt
+
+apt policy python3.7 libpython3.7-stdlib
+
+
+sudo /etc/init.d/networking restart

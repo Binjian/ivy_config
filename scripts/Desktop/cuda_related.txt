@@ -1,0 +1,18 @@
+#nvvp and nvpf
+start in /usr/local/cuda/bin/nvvp or nvpf.
+
+
+##reinstall cuda
+ln -s ./cuda-9.2 ./cuda
+
+https://www.howtoforge.com/tutorial/how-to-install-nvidia-cuda-on-ubuntu-1804/
+
+## build suitesparse
+export MKLROOT=/opt/intel/oneapi/mkl/2021.1.1
+export TBB=-ltbb
+export INSTALL=/home/is/devel/math/SuiteSparse/SuiteSparse-5.8.1-install
+export LIBRARY_PATH=/opt/intel/oneapi/mkl/2021.1.1/lib/intel64:/opt/intel/oneapi/tbb/latest/lib/intel64/gcc4.8:$LIBRARY_PATH
+make
+
+
+export LIBRARY_PATH=/opt/intel/oneapi/mkl/2021.1.1/lib/intel64:/opt/intel/oneapi/tbb/latest/lib/intel64/gcc4.8:$LIBRARY_PATH; make MKLROOT=/opt/intel/oneapi/mkl/2021.1.1 TBB=-ltbb
