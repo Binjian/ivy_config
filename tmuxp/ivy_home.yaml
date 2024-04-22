@@ -1,0 +1,27 @@
+session_name: ivy_home
+windows:
+  - window_name: ivy
+    panes:
+      - ls
+  - window_name: eos
+    start_directory: ~/devel/anting_remote/eos
+    layout: main-vertical
+    panes:
+      - shell_command:
+        - git status
+      - ls
+  - window_name: data
+    start_directory: ~/devel/anting_remote/eos/data
+    layout: main-horizontal
+    panes:
+      - shell_command:
+        - ls
+      - shell_command:
+        - cd HMZABAAH7MF011058-wang-kai
+        - ls
+  - window_name: monitor
+    layout: main-vertical
+    panes:
+      - shell_command:
+        - htop
+      - watch -n 0.5 nvidia-smi

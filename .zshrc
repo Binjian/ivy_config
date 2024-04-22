@@ -270,3 +270,7 @@ export CLASSPATH=$CLASSPATH:/vlt/devel/misc/pyA2L/antlr-4.11.1-complete.jar
 # Created by `pipx` on 2024-03-20 01:19:04
 export PATH="$PATH:/home/n/.local/bin"
 export RUST_SRC_PATH="$(rustc --print sysroot)/lib/rustlib/src/rust/src"
+
+
+export TMUXP_CONFIGDIR=$HOME/.config/tmuxp
+export DISABLE_AUTO_TITLE='true'

@@ -1,0 +1,5 @@
+session_name: A40
+windows:
+  - window_name: A40
+    panes:
+      - ssh x@A40
