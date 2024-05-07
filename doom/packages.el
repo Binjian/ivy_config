@@ -178,3 +178,6 @@
 (package! org-preview-html)
 
 (package! xenops)
+
+;;(package! el-easydraw
+;;  :recipe (:host github :repo "misohena/el-easydraw"))

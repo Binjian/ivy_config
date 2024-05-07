@@ -252,10 +252,10 @@ _h_ decrease width    _l_ increase width
 
 
 (setq yas-snippet-dirs '("~/.org.d/snippets/doom-suite"
-                         "~/.org.d/snippets/andreacrotti-suite"
+                         "~/.org.d/snippets/andreacrotti-suite/snippets"
                          "~/.org.d/snippets/mooerslab-org"
                          "~/.org.d/snippets/madsdk-latex"))
-(yas-global-mode 1))
+(yas-global-mode 1)
 
 
 
