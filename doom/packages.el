@@ -67,12 +67,13 @@
 (package! zmq)
 
 (package! nov)
-(package! pdf-tools)
+;;(package! pdf-tools)
 (package! org-download)
 (package! org-super-agenda)
 ;;(package! ox-jira)
 (package! org-jira)
-;;(package! org-brain)
+;;(package! org-preview-html)
+
 ;;(package! polymode)
 (package! grip-mode)
 
@@ -170,3 +171,10 @@
 
 (package! lemon
   :recipe (:host codeberg :repo "emacs-weirdware/lemon"))
+
+
+(package! latex-preview-pane)
+
+(package! org-preview-html)
+
+(package! xenops)

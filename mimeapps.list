@@ -23,3 +23,4 @@ image/jpeg=org.gnome.eog.desktop;
 font/woff2=org.gnome.FontManager.desktop;
 application/x-desktop=vim.desktop;
 application/x-shellscript=sublime_text.desktop;
+application/zstd=org.gnome.FileRoller.desktop;

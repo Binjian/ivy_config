@@ -37,8 +37,11 @@
 ;;                    )
 ;;
 ;;(setq doom-font (font-spec :family "Source Han Sans" :weight 'medium :size 13.0))
-(setq doom-font (font-spec :family "Sarasa Term SC Nerd" :size 14 :weight 'medium)
-      doom-variable-pitch-font (font-spec :family "Sarasa Gothic SC" :size 14))
+
+;;(setq doom-font (font-spec :family "Sarasa Term SC Nerd" :size 14 :weight 'medium)
+;;      doom-variable-pitch-font (font-spec :family "Sarasa Term Slab SC" :size 14))
+
+(setq doom-font (font-spec :family "Sarasa Term SC Nerd" :size 14 :weight 'medium))
 
 (defun my-cjk-font()
   (dolist (charset '(kana han cjk-misc symbol bopomofo))
@@ -64,6 +67,24 @@
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
 (setq doom-theme 'doom-zenburn)
+
+(defhydra doom-window-resize-hydra (:hint nil)
+  "
+             _k_ increase height
+_h_ decrease width    _l_ increase width
+             _j_ decrease height
+"
+  ("h" evil-window-decrease-width)
+  ("j" evil-window-increase-height)
+  ("k" evil-window-decrease-height)
+  ("l" evil-window-increase-width)
+
+  ("q" nil))
+
+(map!
+ (:prefix "w"
+  :desc "Hydra resize" :n "SPC" #'doom-window-resize-hydra/body))
+
 
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
@@ -230,8 +251,11 @@
 
 
 
-(setq yas-snippet-dirs '("~/.org.d/snippets"))
-;; (yas-global-mode 1))
+(setq yas-snippet-dirs '("~/.org.d/snippets/doom-suite"
+                         "~/.org.d/snippets/andreacrotti-suite"
+                         "~/.org.d/snippets/mooerslab-org"
+                         "~/.org.d/snippets/madsdk-latex"))
+(yas-global-mode 1))
 
 
 
@@ -280,6 +304,15 @@
 ;;   `require' or `use-package'.
 ;; - `map!' for binding new keys
 ;;
+
+(setenv "PATH" (concat "/usr/local/texlive/2024/bin/x86_64-linux:"
+                       (getenv "PATH")))
+(add-to-list 'exec-path "/usr/local/texlive/2024/bin/x86_64-linux")
+
+(latex-preview-pane-enable)
+(setq lsp-tex-server 'digestif)
+
+;;(add-hook LaTeX-mode-hook 'xenops-mode)
 
 
 (use-package! websocket
@@ -499,7 +532,7 @@
 
                                         ; START TABS CONFIG
 ;; Create a variable for our preferred tab width
-(setq custom-tab-width 2)
+(setq custom-tab-width 4)
 
 ;; Two callable functions for enabling/disabling tabs in Emacs
 (defun disable-tabs () (setq indent-tabs-mode nil))
@@ -522,7 +555,8 @@
 
 ;; Making electric-indent behave sanely
 (setq-default electric-indent-inhibit t)
-
+;; C indent
+(setq-default c-basic-offset custom-tab-width)
 ;; Make the backspace properly erase the tab instead of
 ;; removing 1 space at a time.
 (setq backward-delete-char-untabify-method 'hungry)

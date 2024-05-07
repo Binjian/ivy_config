@@ -12,6 +12,7 @@
     background_image = None
     font = MesloLGS NF 10
     foreground_color = "#f8f8f2"
+    show_titlebar = False
     palette = "#262626:#e356a7:#42e66c:#e4f34a:#9b6bdf:#e64747:#75d7ec:#efa554:#7a7a7a:#ff79c6:#50fa7b:#f1fa8c:#bd93f9:#ff5555:#8be9fd:#ffb86c"
     use_custom_command = True
     custom_command = byobu
@@ -28,6 +29,7 @@
     [[[child1]]]
       parent = window0
       type = Terminal
+      profile = default
     [[[window0]]]
       parent = ""
       type = Window
