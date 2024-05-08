@@ -175,7 +175,7 @@
 
 (package! latex-preview-pane)
 
-(package! org-preview-html)
+;;(package! org-preview-html)
 
 (package! xenops)
 

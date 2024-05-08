@@ -250,6 +250,10 @@ _h_ decrease width    _l_ increase width
 ;;(org-set-emph-re 'org-emphasis-regexp-components org-emphasis-regexp-components)
 
 
+;;(setq org-preview-html-viewer 'xwidget)
+;;(setq org-preview-html-viewer 'eww)
+
+(setq browse-url-browser-function 'eww-browse-url)
 
 (setq yas-snippet-dirs '("~/.org.d/snippets/doom-suite"
                          "~/.org.d/snippets/andreacrotti-suite/snippets"
@@ -313,7 +317,6 @@ _h_ decrease width    _l_ increase width
 (setq lsp-tex-server 'digestif)
 
 ;;(add-hook LaTeX-mode-hook 'xenops-mode)
-
 
 (use-package! websocket
   :after org-roam2)
